@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.firecrawl/
+modelo/artefatos/*
+!modelo/artefatos/viirs_regional/
+modelo/artefatos/viirs_regional/*
+!modelo/artefatos/viirs_regional/modelo_viirs.joblib
+!modelo/artefatos/viirs_regional/relatorio_viirs.json
+!modelo/artefatos/viirs_regional/previsoes_teste_viirs.csv
+dados/*.sqlite
+dados/*.sqlite-*

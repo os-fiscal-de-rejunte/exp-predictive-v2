@@ -1,0 +1,325 @@
+{
+  "criado_em_utc": "2026-11-14T03:43:01.152161+00:00",
+  "modelo": "logistica",
+  "sha256_dados": "d78266f4d06100ef39640d16758b6c8173a5f5cef0538da9ca2fb2a7b7441ee2",
+  "produto": "VJ114A1.002",
+  "objetivo": "Deteccao em pelo menos um pixel do recorte no dia UTC seguinte, condicionada a mascara integralmente classificada.",
+  "escopo": "Retrospectivo e exploratorio; areas selecionadas, datas nao continuas e fontes possivelmente revisadas.",
+  "dados": {
+    "linhas": 1144,
+    "mascaras_incompletas": 570,
+    "incompletas_com_foco": 21
+  },
+  "particoes": {
+    "treino": {
+      "linhas": 181,
+      "positivos": 21,
+      "inicio": "2018-01-08",
+      "fim": "2021-10-22",
+      "areas": [
+        "centro_norte",
+        "centro_oeste",
+        "leste",
+        "norte",
+        "norte_oeste",
+        "sudeste"
+      ]
+    },
+    "calibracao": {
+      "linhas": 51,
+      "positivos": 4,
+      "inicio": "2022-01-01",
+      "fim": "2022-10-22",
+      "areas": [
+        "centro_norte",
+        "centro_oeste",
+        "leste",
+        "norte",
+        "norte_oeste",
+        "sudeste"
+      ]
+    },
+    "decisao": {
+      "linhas": 93,
+      "positivos": 5,
+      "inicio": "2023-01-01",
+      "fim": "2023-11-22",
+      "areas": [
+        "centro_norte",
+        "centro_oeste",
+        "leste",
+        "norte",
+        "norte_oeste",
+        "sudeste"
+      ]
+    },
+    "teste_local": {
+      "linhas": 96,
+      "positivos": 9,
+      "inicio": "2024-01-01",
+      "fim": "2025-10-22",
+      "areas": [
+        "centro_norte",
+        "centro_oeste",
+        "leste",
+        "norte",
+        "norte_oeste",
+        "sudeste"
+      ]
+    },
+    "teste_espacial": {
+      "linhas": 35,
+      "positivos": 5,
+      "inicio": "2024-01-01",
+      "fim": "2025-10-22",
+      "areas": [
+        "holdout_nordeste",
+        "holdout_sul"
+      ]
+    }
+  },
+  "selecao": {
+    "metrica": "menor Brier medio nas dobras temporais do treino",
+    "candidatos": {
+      "frequencia": {
+        "brier_medio": 0.10918389786074396,
+        "dobras": [
+          {
+            "ano": 2019,
+            "treino": 43,
+            "validacao": 45,
+            "positivos": 7,
+            "brier": 0.13526831320233165
+          },
+          {
+            "ano": 2020,
+            "treino": 88,
+            "validacao": 47,
+            "positivos": 6,
+            "brier": 0.11136968085106383
+          },
+          {
+            "ano": 2021,
+            "treino": 135,
+            "validacao": 46,
+            "positivos": 4,
+            "brier": 0.08091369952883641
+          }
+        ]
+      },
+      "logistica": {
+        "brier_medio": 0.08377873621521638,
+        "dobras": [
+          {
+            "ano": 2019,
+            "treino": 43,
+            "validacao": 45,
+            "positivos": 7,
+            "brier": 0.09148444419856697
+          },
+          {
+            "ano": 2020,
+            "treino": 88,
+            "validacao": 47,
+            "positivos": 6,
+            "brier": 0.07598520682240527
+          },
+          {
+            "ano": 2021,
+            "treino": 135,
+            "validacao": 46,
+            "positivos": 4,
+            "brier": 0.08386655762467692
+          }
+        ]
+      },
+      "floresta": {
+        "brier_medio": 0.08727196516416741,
+        "dobras": [
+          {
+            "ano": 2019,
+            "treino": 43,
+            "validacao": 45,
+            "positivos": 7,
+            "brier": 0.11389955127626455
+          },
+          {
+            "ano": 2020,
+            "treino": 88,
+            "validacao": 47,
+            "positivos": 6,
+            "brier": 0.06951701075961103
+          },
+          {
+            "ano": 2021,
+            "treino": 135,
+            "validacao": 46,
+            "positivos": 4,
+            "brier": 0.07839933345662664
+          }
+        ]
+      }
+    }
+  },
+  "calibracao": {
+    "usada": true,
+    "brier_bruto_decisao": 0.06193115902751062,
+    "brier_calibrado_decisao": 0.04961223859393645,
+    "positivos_calibracao": 4
+  },
+  "limiar_f1_decisao": 0.14930810135530226,
+  "metricas_teste": {
+    "geral": {
+      "exemplos": 131,
+      "positivos": 14,
+      "prevalencia": 0.10687022900763359,
+      "acuracia": 0.8244274809160306,
+      "acuracia_balanceada": 0.6816239316239316,
+      "precisao": 0.30434782608695654,
+      "revocacao": 0.5,
+      "f1": 0.3783783783783784,
+      "average_precision": 0.3640807959418423,
+      "brier": 0.08580096674561341,
+      "log_loss": 0.2751072822856237,
+      "matriz_confusao": [
+        [
+          101,
+          16
+        ],
+        [
+          7,
+          7
+        ]
+      ]
+    },
+    "areas_ajuste": {
+      "exemplos": 96,
+      "positivos": 9,
+      "prevalencia": 0.09375,
+      "acuracia": 0.8229166666666666,
+      "acuracia_balanceada": 0.6532567049808429,
+      "precisao": 0.25,
+      "revocacao": 0.4444444444444444,
+      "f1": 0.32,
+      "average_precision": 0.33214243605850124,
+      "brier": 0.07885303712315168,
+      "log_loss": 0.2563965527345163,
+      "matriz_confusao": [
+        [
+          75,
+          12
+        ],
+        [
+          5,
+          4
+        ]
+      ]
+    },
+    "areas_reservadas": {
+      "exemplos": 35,
+      "positivos": 5,
+      "prevalencia": 0.14285714285714285,
+      "acuracia": 0.8285714285714286,
+      "acuracia_balanceada": 0.7333333333333334,
+      "precisao": 0.42857142857142855,
+      "revocacao": 0.6,
+      "f1": 0.5,
+      "average_precision": 0.5847619047619048,
+      "brier": 0.1048581451386513,
+      "log_loss": 0.32642814048294705,
+      "matriz_confusao": [
+        [
+          26,
+          4
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  "baseline_frequencia_teste_limiar_0_5": {
+    "exemplos": 131,
+    "positivos": 14,
+    "prevalencia": 0.10687022900763359,
+    "acuracia": 0.8931297709923665,
+    "acuracia_balanceada": 0.5,
+    "precisao": 0.0,
+    "revocacao": 0.0,
+    "f1": 0.0,
+    "average_precision": 0.10687022900763359,
+    "brier": 0.0955327398920379,
+    "log_loss": 0.34033939378120237,
+    "matriz_confusao": [
+      [
+        117,
+        0
+      ],
+      [
+        14,
+        0
+      ]
+    ]
+  },
+  "baseline_sazonal_teste_limiar_0_5": {
+    "exemplos": 131,
+    "positivos": 14,
+    "prevalencia": 0.10687022900763359,
+    "acuracia": 0.8931297709923665,
+    "acuracia_balanceada": 0.5,
+    "precisao": 0.0,
+    "revocacao": 0.0,
+    "f1": 0.0,
+    "average_precision": 0.15988797550950715,
+    "brier": 0.09209227761597134,
+    "log_loss": 0.3205199002595992,
+    "matriz_confusao": [
+      [
+        117,
+        0
+      ],
+      [
+        14,
+        0
+      ]
+    ]
+  },
+  "teste_sem_historico_satelite": {
+    "exemplos": 131,
+    "positivos": 14,
+    "prevalencia": 0.10687022900763359,
+    "acuracia": 0.9007633587786259,
+    "acuracia_balanceada": 0.5671550671550671,
+    "precisao": 0.6666666666666666,
+    "revocacao": 0.14285714285714285,
+    "f1": 0.23529411764705882,
+    "average_precision": 0.3684933617976579,
+    "brier": 0.09383525460863015,
+    "log_loss": 0.33355040612765047,
+    "matriz_confusao": [
+      [
+        116,
+        1
+      ],
+      [
+        12,
+        2
+      ]
+    ]
+  },
+  "bibliotecas": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.4.2",
+    "joblib": "1.5.1"
+  },
+  "observacoes": [
+    "As areas foram escolhidas por disponibilidade e atividade de focos, nao por amostragem representativa.",
+    "A mascara completa futura nao e conhecida no instante da previsao; a probabilidade nao e incondicional.",
+    "Os mesmos dados historicos foram examinados em experimento anterior; o teste e exploratorio, nao prospectivo.",
+    "O periodo de calibracao e decisao tem poucos positivos; o limiar e a calibracao sao instaveis.",
+    "FIRMS e POWER retrospectivos podem ter sido revisados; disponibilidade operacional passada nao foi comprovada.",
+    "O teste sem historico de satelite foi acrescentado depois da primeira avaliacao e e apenas uma analise de sensibilidade."
+  ]
+}

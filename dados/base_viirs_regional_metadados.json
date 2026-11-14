@@ -1,0 +1,14 @@
+{
+  "produto": "VJ114A1.002 / VIIRS NOAA-20 / FireMask diario 1 km",
+  "origem": "C:\\Users\\iagodiniz-ieg\\OneDrive - Instituto J&F\\Área de Trabalho\\HACKATON-NASA\\runs\\viirs_daily_v4b_20261111\\processed\\mask_examples.parquet",
+  "sha256_origem": "61d9a46678ec665b7c49681524e84ac650b2b08255661a197b981ede6fe65f36",
+  "sha256_csv": "d78266f4d06100ef39640d16758b6c8173a5f5cef0538da9ca2fb2a7b7441ee2",
+  "linhas": 1144,
+  "mascaras_completas": 574,
+  "positivos_completos": 57,
+  "negativos_completos": 517,
+  "mascaras_incompletas": 570,
+  "incompletas_com_foco": 21,
+  "alvo": "Ao menos um pixel de foco no dia UTC seguinte, condicionado a todos os pixels da mascara terem classificacao valida.",
+  "limites": "Oito areas selecionadas, amostra descontínua, arquivos retrospectivos possivelmente revisados; nao representa o Brasil."
+}
