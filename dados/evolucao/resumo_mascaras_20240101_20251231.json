@@ -1,0 +1,15 @@
+{
+  "inicio": "2024-01-01",
+  "fim": "2025-12-31",
+  "linhas": 187136,
+  "celulas": 256,
+  "completas": 127443,
+  "positivas_completas": 9989,
+  "negativas_completas": 117454,
+  "incompletas": 59693,
+  "positivas_incompletas": 1081,
+  "sha256_grade": "ba0ab5105eb5d423d0888c058d44f4e1b83c3d9b42ab306fc949ba4799d864db",
+  "sha256_resultado": "2d86b32cdc939f8062eccf49c3e265a5abca9454bfb07915f8a1409cecebe3b0",
+  "arquivo": "mascaras_20240101_20251231.parquet",
+  "fontes": "fontes_mascaras_20240101_20251231.json"
+}

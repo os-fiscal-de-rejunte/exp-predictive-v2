@@ -1,0 +1,10 @@
+{
+  "pais": "Switzerland",
+  "area_consultada": "5.75,45.75,10.75,47.75",
+  "celulas": 52,
+  "resolucao_graus": 0.25,
+  "criterio": "Celulas totalmente contidas no limite Natural Earth; regioes fronteiricas excluidas.",
+  "sha256_limites": "fd1f2d04dbe7bcc07743a6733de825305b01afe974d75a813e1ea10994004088",
+  "sha256_grade": "06992ebe257235a656f1aff3c5b38f6206cb6defb85fcddb2f44f3ba04e1d65f",
+  "criado_em_utc": "2026-11-14T11:14:30.674130+00:00"
+}

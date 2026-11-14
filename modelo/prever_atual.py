@@ -10,6 +10,8 @@ import pandas as pd
 import requests
 
 from modelo.treinar_viirs import probabilidades
+from modelo.historico_firms import consultar as consultar_historico
+from modelo.config import RAIZ
 from modelo.viirs_dados import ARTEFATOS, BASE, CARACTERISTICAS, sha256
 
 URL = "https://power.larc.nasa.gov/api/temporal/daily/point"
@@ -65,7 +67,7 @@ def prever_atual(caminho, artefato_path, pais, regiao=None):
     if pais.strip().casefold() not in {"brasil", "brazil"}:
         raise ValueError("Este piloto so contem recortes selecionados na amostra do Brasil.")
     artefato = joblib.load(artefato_path)
-    if artefato.get("versao") != 1 or artefato.get("caracteristicas") != CARACTERISTICAS:
+    if artefato.get("versao") not in {1, 2} or artefato.get("caracteristicas") != CARACTERISTICAS:
         raise ValueError("Contrato de caracteristicas incompativel.")
     if sha256(caminho) != artefato.get("sha256_dados"):
         raise ValueError("A base local nao corresponde ao artefato treinado.")
@@ -84,12 +86,29 @@ def prever_atual(caminho, artefato_path, pais, regiao=None):
                      "longitude_centro": item["longitude"], "grupo_espacial": item["spatial_group"]}
         try:
             clima, hash_resposta = consultar_clima(item["latitude"], item["longitude"], inicio, fim)
+            historico = None
+            modo = "legado_sem_satelite"
+            contagem_viirs = np.nan
+            if artefato["versao"] == 2:
+                try:
+                    historico = consultar_historico(item, data_alvo)
+                except RuntimeError as erro:
+                    historico = {"viirs": {"situacao": "indisponivel", "motivo": str(erro)},
+                                 "modis": {"situacao": "indisponivel", "motivo": str(erro)}}
+                viirs = historico.get("viirs", {})
+                modo = "viirs_firms" if viirs.get("situacao") == "consultado" else "sem_satelite"
+                if viirs.get("registros_positivos") is not None:
+                    contagem_viirs = np.log1p(viirs["registros_positivos"])
+                selecionado = artefato["modos"][modo]
+            else:
+                selecionado = artefato
             entrada = pd.DataFrame([{
                 **item, **clima, "period_start": pd.Timestamp(data_alvo, tz="UTC"),
-                "past_viirs_mask_event": np.nan, "past_viirs_log_records": np.nan, "past_modis_event": np.nan,
+                "past_viirs_mask_event": np.nan, "past_viirs_log_records": contagem_viirs, "past_modis_event": np.nan,
             }])
-            prob = probabilidades(artefato["modelo"], artefato["calibrador"], entrada)[0]
+            prob = probabilidades(selecionado["modelo"], selecionado["calibrador"], entrada)[0]
             resultado.update({"situacao": "estimativa_experimental", "probabilidade_condicional": float(prob),
+                              "modo_modelo": modo, "historico_firms": historico,
                               "clima_historico": clima, "sha256_resposta_power": hash_resposta})
         except RuntimeError as erro:
             resultado.update({"situacao": "dados_indisponiveis", "probabilidade_condicional": None, "motivo": str(erro)})
@@ -105,10 +124,11 @@ def prever_atual(caminho, artefato_path, pais, regiao=None):
         "produto_alvo": "VJ114A1.002, VIIRS NOAA-20, FireMask diario de 1 km",
         "interpretacao": "Probabilidade experimental de ao menos um pixel de foco no recorte, condicionada a classificacao valida de toda a mascara futura.",
         "probabilidade_incendio_incondicional": None,
-        "historico_modis_e_viirs": "Indisponivel nesta consulta; o modelo usa imputacao e indicadores de ausencia.",
+        "historico_modis_e_viirs": ("Registros FIRMS recentes por recorte, quando disponiveis; ausencia de registros nao comprova ausencia de foco. MODIS e informado como contexto." if artefato["versao"] == 2 else "Indisponivel nesta consulta; o modelo usa imputacao e indicadores de ausencia."),
         "avaliacao_retrospectiva_sem_historico": artefato.get("avaliacao_sem_historico"),
         "referencia_sazonal_no_mesmo_teste": artefato.get("referencia_sazonal"),
-        "aviso": "Analise de sensibilidade retrospectiva e exploratoria, sem garantia de desempenho futuro. Nao use como alerta operacional.",
+        "avaliacao_por_modo": artefato.get("avaliacao"), "referencias_por_modo": artefato.get("referencias"),
+        "aviso": "Avaliacao retrospectiva exploratoria; FIRMS NRT pode diferir dos dados historicos SP. A observacao futura e desconhecida. Nao use como alerta operacional.",
         "recortes": saidas,
     }
 
@@ -118,7 +138,8 @@ def main():
     parser.add_argument("--pais", required=True)
     parser.add_argument("--regiao")
     parser.add_argument("--dados", default=str(BASE))
-    parser.add_argument("--artefato", default=str(ARTEFATOS / "modelo_viirs.joblib"))
+    novo = RAIZ / "modelo" / "artefatos" / "evolucao_recortes" / "modelo_recortes.joblib"
+    parser.add_argument("--artefato", default=str(novo if novo.exists() else ARTEFATOS / "modelo_viirs.joblib"))
     parser.add_argument("--saida", type=Path)
     args = parser.parse_args()
     resultado = prever_atual(args.dados, args.artefato, args.pais, args.regiao)

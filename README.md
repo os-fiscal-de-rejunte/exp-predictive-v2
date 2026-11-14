@@ -1,10 +1,42 @@
 # Modelo experimental de detecção de focos
 
-Este projeto contém um piloto treinado com dados reais para estimar a detecção de pelo menos um pixel de foco em uma área, no próximo dia UTC. A estimativa é **condicionada a todos os pixels da futura máscara VIIRS estarem classificados**. Não é a probabilidade de incêndio, de ignição ou de haver algum foco no país inteiro.
+Este projeto contém modelos experimentais treinados com dados reais para estimar a detecção de pelo menos um pixel de foco em uma área, no próximo dia UTC. A estimativa é **condicionada a todos os pixels da futura máscara VIIRS estarem classificados**. Não é a probabilidade de incêndio, de ignição ou de haver algum foco no país inteiro.
+
+## Evolução: grade regional do MATOPIBA
+
+A versão mais recente cobre 256 células de 0,25° × 0,25° em um recorte do MATOPIBA, com dados históricos de 2024–2025. Ela combina detecções MODIS e VIIRS/FIRMS, clima histórico, vegetação e terreno quando disponíveis, e grava resultados em JSON e GeoJSON. A cobertura do solo aparece como contexto, com o ano de referência, mas não entra no modelo principal. Os arquivos descrevem datas, fontes, modo do modelo e condição da previsão. A área é um piloto limitado e não representa o Brasil inteiro.
+
+No teste retrospectivo, o modo usado na consulta atual teve acurácia de **77,99%**, precisão de **36,68%** e revocação de **42,62%**. A análise é exploratória, os dados já foram examinados e a revocação ficou abaixo da meta. Os resultados e as limitações estão no [relatório de evolução](RELATORIO_EVOLUCAO.md). Não use o modelo para alertas ou decisões operacionais.
+
+Com Python 3.11, no PowerShell, dentro da pasta do projeto, instale as dependências e atualize a previsão:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r modelo/requirements.txt
+.\.venv\Scripts\python.exe -B -m modelo.atualizar_grade
+```
+
+A atualização precisa de `EARTHDATA_TOKEN` e `FIRMS_MAP_KEY` no `.env` local. Os resultados ficam em `modelo/artefatos/evolucao_grade/previsao_atual.json` e `previsao_atual.geojson`. Cada emissão também é guardada em `previsoes_prospectivas/`, com a data, o modelo e o conteúdo verificado por SHA-256. A execução é sob demanda; não há agendamento automático.
+
+Para verificar previsões já encerradas, consultar as máscaras disponíveis e gerar uma avaliação prospectiva:
+
+```powershell
+.\.venv\Scripts\python.exe -B -m modelo.avaliar_prospectivo --atualizar-observacoes
+```
+
+O resultado inicial é `aguardando_fim_do_dia` ou `aguardando_mascaras`. A avaliação depende da publicação posterior das máscaras; um arquivo local e seu hash não provam o horário de emissão por um terceiro independente.
+
+O modelo treinado, os relatórios e as bases históricas processadas necessárias para reproduzir as avaliações estão no repositório. Dados brutos, cache, consultas atuais e registros prospectivos permanecem locais e são ignorados pelo Git. Em outro computador, a atualização atual baixa as fontes necessárias novamente. Carregue artefatos Joblib somente de origem confiável e mantenha as credenciais no `.env` local.
+
+## Teste na Suíça
+
+O modelo brasileiro foi avaliado em 52 células internas da Suíça durante 2025. Com o limiar original, encontrou **0 dos 23 casos positivos** com máscara completa. A amostra é pequena, mas não sustenta o uso do modelo para a Suíça. O [relatório do teste](RELATORIO_TESTE_SUICA.md) apresenta a cobertura, as métricas e os comandos de reprodução.
+
+## Versão anterior: oito recortes
 
 O piloto cobre oito recortes selecionados no Brasil, cada um com 41 × 41 pixels de aproximadamente 927 m em projeção sinusoidal. As áreas não foram sorteadas para representar o Brasil e algumas podem abranger regiões próximas a fronteiras. A consulta por país devolve somente esses recortes, não um mapa nacional ou mundial. O projeto ainda não é apropriado para alertas ou decisões operacionais.
 
-## Dados e rótulo
+### Dados e rótulo
 
 O produto-alvo é o [VJ114A1.002](https://doi.org/10.5067/VIIRS/VJ114A1.002), máscara diária VIIRS/NOAA-20 de resolução nominal de 1 km. Ele é diferente das detecções FIRMS VIIRS de 375 m. Na leitura usada aqui, as classes 3, 5, 7, 8 e 9 são classificadas; 7 a 9 indicam foco. Nuvens e pixels desconhecidos não são negativos.
 
@@ -21,7 +53,7 @@ O conjunto reúne datas amostradas entre 2018 e 2025, principalmente dias 1, 8, 
 
 O arquivo anterior de células FIRMS de 0,01° permanece separado. Seu código genérico em `modelo/dados.py` agora aceita positivos mesmo sem máscara e só usa zero quando há observação válida. Essa mistura de positivos e negativos pode produzir seleção enviesada: a saída desse caminho não é uma probabilidade incondicional para todas as células. A execução genérica exige que o operador confirme a disponibilidade temporal das entradas.
 
-## Como executar
+### Como executar
 
 No PowerShell, entre nesta pasta `HACKATON-NASA-2` e instale as dependências:
 
@@ -59,9 +91,9 @@ python -B -m modelo.prever_atual --pais Brasil --regiao centro_norte
 
 Omitir `--regiao` consulta os oito recortes. Para guardar o JSON, acrescente `--saida caminho/resultado.json`. A consulta registra o horário, as entradas meteorológicas e os hashes do modelo, da base e da resposta POWER. Se faltar algum dia ou parâmetro climático, aquele recorte retorna `dados_indisponiveis`, sem probabilidade.
 
-**Limite da consulta atual:** ela ainda não coleta o histórico recente MODIS/VIIRS. Esses campos entram como ausentes e são tratados pelo imputador treinado, com indicadores de ausência. A saída é experimental, não libera uma probabilidade incondicional e não deve ser usada como alerta. O teste de sensibilidade a essa ausência está descrito abaixo.
+**Evolução da consulta dos recortes:** a rotina busca o histórico recente FIRMS e usa modos treinados separadamente conforme a disponibilidade dos dados. MODIS é apresentado como contexto quando não corresponde a uma entrada histórica equivalente. A saída continua experimental e não libera uma probabilidade incondicional. A avaliação original e o teste de sensibilidade estão descritos abaixo.
 
-## Como o modelo foi avaliado
+### Como o modelo anterior foi avaliado
 
 A emissão retrospectiva é considerada no fim de D−1 UTC, para o alvo em D. As entradas são latitude, longitude, sazonalidade, registros anteriores VIIRS/FIRMS, máscara MODIS anterior, máscara VIIRS anterior quando disponível e clima histórico POWER. O clima agrega oito dias de D−10 a D−3: soma da precipitação e média das demais variáveis. São verificadas as datas de produção das máscaras anteriores e as datas finais das janelas. Os arquivos retrospectivos podem ter sido revisados, portanto isso não comprova que todas as entradas estavam publicadas no momento histórico da emissão. A [NASA informa latência variável no POWER](https://power.larc.nasa.gov/docs/faqs/data/); o produto é histórico, não previsão meteorológica futura.
 
@@ -81,7 +113,7 @@ Uma regra que classificasse todos como negativos teria acurácia de 89,31%, mas 
 
 Uma análise posterior zerou **a disponibilidade dos três históricos de satélite**, mantendo-os ausentes em vez de inventar registros. Nos mesmos 131 exemplos, o modelo teve Brier 0,0938 e encontrou 2 de 14 positivos no limiar já escolhido; a referência sazonal teve Brier 0,0921. Essa análise motivou as restrições da consulta atual e também não é uma avaliação prospectiva.
 
-## Organização
+### Organização anterior
 
 - `modelo/viirs_dados.py`: valida o contrato, os rótulos, datas, geometrias e proveniência da base.
 - `modelo/preparar_viirs.py`: cria a cópia auditada e seu arquivo de metadados.
@@ -97,14 +129,14 @@ python -m pip install pytest
 python -B -m pytest -q
 ```
 
-## Próximas etapas para um serviço real
+### Próximas etapas para um serviço real
 
-1. Construir uma grade terrestre independente dos focos, cobrindo as regiões e datas de interesse, e obter máscaras e detecções com versões e proveniência conhecidas para períodos contínuos.
-2. Integrar dados recentes de MODIS e VIIRS por recorte, preservando falhas, latência, geometria e ausência de observação. A API FIRMS limita cada consulta por área a cinco dias e usa `FIRMS_MAP_KEY`; [consulte o contrato da NASA](https://firms.modaps.eosdis.nasa.gov/api/area/).
-3. Obter vegetação, terreno e histórico de previsões meteorológicas realmente disponíveis antes da emissão; validar resolução, unidades e datas de publicação.
-4. Reavaliar com anos e áreas que não tenham sido usados para escolher locais ou modelos, com amostragem representativa, análise de calibração, limites de confiança e critérios de liberação definidos antes do teste.
-5. Só então ampliar para países e integrar ao site, mantendo a distinção entre chance por área, observabilidade e probabilidade agregada nacional.
+1. Acumular e avaliar previsões prospectivas antes de estabelecer desempenho operacional.
+2. Obter e comparar previsões meteorológicas históricas emitidas antes de cada previsão de foco.
+3. Avaliar novos períodos, biomas e regiões sem usar o mesmo teste para escolher o modelo.
+4. Melhorar a revocação e entender a perda de cobertura por nuvens e o desempenho por região.
+5. Só então ampliar a cobertura e integrar ao site, mantendo a distinção entre chance por área, observabilidade e probabilidade nacional.
 
-## Credenciais
+### Credenciais
 
-O `.env` local foi retirado do índice e incluído em `.gitignore`; seu conteúdo permanece no computador. Ele já constava em um commit anterior: isso não apaga o histórico. Revise o acesso ao repositório e substitua as credenciais que possam ter sido expostas. A limpeza do histórico compartilhado exige coordenação, pois reescreve commits.
+O `.env` local está incluído em `.gitignore` e não faz parte do histórico da `main` conferida. Uma branch local antiga contém um `.env` em seu histórico e não deve ser publicada ou mesclada sem remover as credenciais; a exclusão do arquivo atual não limpa commits antigos. Substitua as credenciais que possam ter sido expostas.

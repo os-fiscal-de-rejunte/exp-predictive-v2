@@ -1,0 +1,563 @@
+{
+  "criado_em_utc": "2026-11-14T10:50:19.637233+00:00",
+  "sha256_dados": "05e67706a939ee9ccf2ef978914e9db1bdf28d3357a02e702379895934837726",
+  "status": "pesquisa_retrospectiva_nao_operacional",
+  "modos": {
+    "com_geografia": {
+      "modelo": "logistica",
+      "colunas": [
+        "latitude",
+        "longitude",
+        "dia_seno",
+        "dia_cosseno",
+        "clima_T2M",
+        "clima_RH2M",
+        "clima_PRECTOTCORR",
+        "clima_WS10M",
+        "clima_GWETROOT",
+        "mascara_foco_2d",
+        "mascara_foco_3d",
+        "mascara_focos_7d",
+        "mascara_conhecidos_7d",
+        "mascara_focos_14d",
+        "mascara_conhecidos_14d",
+        "viirs_registros_7d",
+        "viirs_frp_7d",
+        "modis_registros_7d",
+        "modis_frp_7d",
+        "vegetacao_ndvi",
+        "vegetacao_evi",
+        "vegetacao_fracao_qualidade",
+        "vegetacao_idade_dias",
+        "altitude_media_m",
+        "altitude_desvio_m",
+        "viz_mascara_soma",
+        "viz_mascara_com_registro",
+        "viz_viirs_soma",
+        "viz_viirs_com_registro",
+        "viz_modis_soma",
+        "viz_modis_com_registro",
+        "mes"
+      ],
+      "selecao": {
+        "logistica": {
+          "brier_medio": 0.07268956750231566,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08748358725591607,
+              "average_precision": 0.21009365775311298
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11351791665404248,
+              "average_precision": 0.36853325529235037
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017067198596988426,
+              "average_precision": 0.04967800548754528
+            }
+          ]
+        },
+        "xgboost": {
+          "brier_medio": 0.07275536127631524,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.0872394400048455,
+              "average_precision": 0.16428434721854507
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11398382641312542,
+              "average_precision": 0.3709761603513797
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017042817410974794,
+              "average_precision": 0.05610349955056118
+            }
+          ]
+        },
+        "floresta": {
+          "brier_medio": 0.07351633647516455,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08279491675725817,
+              "average_precision": 0.2035061135191516
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11907780171370592,
+              "average_precision": 0.35450587259162836
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.018676290954529513,
+              "average_precision": 0.03960198610512722
+            }
+          ]
+        }
+      },
+      "calibrado": false,
+      "limiar": 0.2191060119860708,
+      "criterio_limiar": "maior revocacao com precisao minima de 30% na decisao",
+      "teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.753875,
+          "acuracia_balanceada": 0.6769890514920414,
+          "precisao": 0.3536442465432388,
+          "revocacao": 0.5611751580513202,
+          "f1": 0.43387004025301895,
+          "average_precision": 0.3911822450967279,
+          "roc_auc": 0.7542167343763057,
+          "brier": 0.12253536729623314,
+          "log_loss": 0.39370320417593746,
+          "matriz_confusao": [
+            [
+              10553,
+              2758
+            ],
+            [
+              1180,
+              1509
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7052937966163362,
+          "acuracia_balanceada": 0.6706448394330269,
+          "precisao": 0.3546916890080429,
+          "revocacao": 0.6136363636363636,
+          "f1": 0.44954128440366975,
+          "average_precision": 0.3998775832140308,
+          "roc_auc": 0.7330583779521808,
+          "brier": 0.14057032949889714,
+          "log_loss": 0.44147622392655816,
+          "matriz_confusao": [
+            [
+              6431,
+              2407
+            ],
+            [
+              833,
+              1323
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8605673192169396,
+          "acuracia_balanceada": 0.635248640057984,
+          "precisao": 0.3463687150837989,
+          "revocacao": 0.34896810506566606,
+          "f1": 0.34766355140186916,
+          "average_precision": 0.3456037136881297,
+          "roc_auc": 0.7669867443141233,
+          "brier": 0.08292762169973135,
+          "log_loss": 0.2887857892461886,
+          "matriz_confusao": [
+            [
+              4122,
+              351
+            ],
+            [
+              347,
+              186
+            ]
+          ]
+        }
+      },
+      "referencia_cv_brier": 0.07233472809400236,
+      "referencia_teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7411875,
+          "acuracia_balanceada": 0.6641704857495733,
+          "precisao": 0.335,
+          "revocacao": 0.5481591669765712,
+          "f1": 0.4158555508534349,
+          "average_precision": 0.38110362976323753,
+          "roc_auc": 0.7438769719868359,
+          "brier": 0.12315294592741459,
+          "log_loss": 0.39699242262282575,
+          "matriz_confusao": [
+            [
+              10385,
+              2926
+            ],
+            [
+              1215,
+              1474
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.702746952883391,
+          "acuracia_balanceada": 0.6539817834187924,
+          "precisao": 0.3449525934188511,
+          "revocacao": 0.5737476808905381,
+          "f1": 0.43086032741205155,
+          "average_precision": 0.39602976463143197,
+          "roc_auc": 0.7278767768293517,
+          "brier": 0.14077645485718304,
+          "log_loss": 0.4430408122954285,
+          "matriz_confusao": [
+            [
+              6489,
+              2349
+            ],
+            [
+              919,
+              1237
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8256092688773472,
+          "acuracia_balanceada": 0.6578283543244038,
+          "precisao": 0.29115479115479115,
+          "revocacao": 0.4446529080675422,
+          "f1": 0.3518930957683742,
+          "average_precision": 0.3237574790504585,
+          "roc_auc": 0.7527535444058975,
+          "brier": 0.08444881944441934,
+          "log_loss": 0.29586257922278675,
+          "matriz_confusao": [
+            [
+              3896,
+              577
+            ],
+            [
+              296,
+              237
+            ]
+          ]
+        }
+      }
+    },
+    "firms_sem_mascara": {
+      "modelo": "xgboost",
+      "colunas": [
+        "latitude",
+        "longitude",
+        "dia_seno",
+        "dia_cosseno",
+        "clima_T2M",
+        "clima_RH2M",
+        "clima_PRECTOTCORR",
+        "clima_WS10M",
+        "clima_GWETROOT",
+        "viirs_registros_7d",
+        "viirs_frp_7d",
+        "modis_registros_7d",
+        "modis_frp_7d",
+        "vegetacao_ndvi",
+        "vegetacao_evi",
+        "vegetacao_fracao_qualidade",
+        "vegetacao_idade_dias",
+        "altitude_media_m",
+        "altitude_desvio_m",
+        "viz_viirs_soma",
+        "viz_viirs_com_registro",
+        "viz_modis_soma",
+        "viz_modis_com_registro",
+        "mes"
+      ],
+      "selecao": {
+        "logistica": {
+          "brier_medio": 0.07321983000677572,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08676207047246706,
+              "average_precision": 0.22498017465403203
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11578349024285305,
+              "average_precision": 0.354153722996038
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.01711392930500706,
+              "average_precision": 0.03828971851364505
+            }
+          ]
+        },
+        "xgboost": {
+          "brier_medio": 0.07262511833337944,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08595318157651813,
+              "average_precision": 0.1713442972338063
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11487275235736485,
+              "average_precision": 0.3646255412539279
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.01704942106625532,
+              "average_precision": 0.05121566044452855
+            }
+          ]
+        },
+        "floresta": {
+          "brier_medio": 0.07443463496571744,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08284182945841637,
+              "average_precision": 0.18600411288777519
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.12141345253634568,
+              "average_precision": 0.34885006167246596
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.019048622902390226,
+              "average_precision": 0.027024642549642736
+            }
+          ]
+        }
+      },
+      "calibrado": true,
+      "limiar": 0.24507164517229643,
+      "criterio_limiar": "maior revocacao com precisao minima de 30% na decisao",
+      "teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7823125,
+          "acuracia_balanceada": 0.6384377497239077,
+          "precisao": 0.37034617896799477,
+          "revocacao": 0.4217181108218669,
+          "f1": 0.39436619718309857,
+          "average_precision": 0.36325879199077055,
+          "roc_auc": 0.7401170622004204,
+          "brier": 0.1252418653506984,
+          "log_loss": 0.4019679535368336,
+          "matriz_confusao": [
+            [
+              11383,
+              1928
+            ],
+            [
+              1555,
+              1134
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7409496088775696,
+          "acuracia_balanceada": 0.6332072019081039,
+          "precisao": 0.36982693754702783,
+          "revocacao": 0.4559369202226345,
+          "f1": 0.40839218944744493,
+          "average_precision": 0.37984797394035513,
+          "roc_auc": 0.7207432716961376,
+          "brier": 0.14303257030393157,
+          "log_loss": 0.4488073594090623,
+          "matriz_confusao": [
+            [
+              7163,
+              1675
+            ],
+            [
+              1173,
+              983
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.873152217339193,
+          "acuracia_balanceada": 0.6133702360085047,
+          "precisao": 0.37376237623762376,
+          "revocacao": 0.28330206378986866,
+          "f1": 0.3223052294557097,
+          "average_precision": 0.28787455202509615,
+          "roc_auc": 0.747198638988402,
+          "brier": 0.08617054887929496,
+          "log_loss": 0.2991009083591903,
+          "matriz_confusao": [
+            [
+              4220,
+              253
+            ],
+            [
+              382,
+              151
+            ]
+          ]
+        }
+      },
+      "referencia_cv_brier": 0.07289858699247291,
+      "referencia_teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7799375,
+          "acuracia_balanceada": 0.6387909165852058,
+          "precisao": 0.36683738796414855,
+          "revocacao": 0.42618073633320935,
+          "f1": 0.3942886633407879,
+          "average_precision": 0.35937500329799216,
+          "roc_auc": 0.7399524642601198,
+          "brier": 0.12501481528513494,
+          "log_loss": 0.40089607508194774,
+          "matriz_confusao": [
+            [
+              11333,
+              1978
+            ],
+            [
+              1543,
+              1146
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7413134436965617,
+          "acuracia_balanceada": 0.6350115309964015,
+          "precisao": 0.3712574850299401,
+          "revocacao": 0.4601113172541744,
+          "f1": 0.4109362054681027,
+          "average_precision": 0.3790936354184559,
+          "roc_auc": 0.7245144354723929,
+          "brier": 0.14242837753356122,
+          "log_loss": 0.4458616506685265,
+          "matriz_confusao": [
+            [
+              7158,
+              1680
+            ],
+            [
+              1164,
+              992
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8647622852576907,
+          "acuracia_balanceada": 0.6111543138338054,
+          "precisao": 0.3407079646017699,
+          "revocacao": 0.28893058161350843,
+          "f1": 0.31269035532994927,
+          "average_precision": 0.2745844655096302,
+          "roc_auc": 0.7383175433673544,
+          "brier": 0.08677176627211086,
+          "log_loss": 0.3021442696486983,
+          "matriz_confusao": [
+            [
+              4175,
+              298
+            ],
+            [
+              379,
+              154
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "bibliotecas": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.4.2",
+    "joblib": "1.5.1",
+    "xgboost": "3.2.0"
+  },
+  "limites": "Apenas sinais anteriores sao agregados; FIRMS SP e clima historico podem ter sido revisados. Teste ja explorado e mesma regiao; nao comprova melhoria prospectiva."
+}

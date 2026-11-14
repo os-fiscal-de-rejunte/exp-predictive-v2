@@ -1,0 +1,15 @@
+{
+  "linhas": 187136,
+  "rotulos_conhecidos": 127443,
+  "positivos": 9989,
+  "fontes": {
+    "mascaras": "2d86b32cdc939f8062eccf49c3e265a5abca9454bfb07915f8a1409cecebe3b0",
+    "clima": "a91f3fab489202175c0ed838c10a0af711b8a899aa8b7e39ecf0d27ed1e91767",
+    "grade": "ba0ab5105eb5d423d0888c058d44f4e1b83c3d9b42ab306fc949ba4799d864db",
+    "firms": "7743ab893776ae13239e8acf5226169b5b5debc22ba702ba1f45b93edfda1e23",
+    "vegetacao": "89bf222c1e4ae440194212014b3ea31f3929d8fc2d35dac34764d9e95e7e4e24",
+    "relevo": "3fd76aac9e37754505912183ed950c7b9454f56177eaee90e7beb8e465562dec"
+  },
+  "sha256_saida": "05e67706a939ee9ccf2ef978914e9db1bdf28d3357a02e702379895934837726",
+  "limite": "Dados historicos podem ter sido revisados; SP nao comprova disponibilidade NRT no instante historico."
+}

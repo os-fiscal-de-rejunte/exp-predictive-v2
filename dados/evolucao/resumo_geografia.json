@@ -1,0 +1,10 @@
+{
+  "celulas_relevo": 256,
+  "celulas_com_relevo": 256,
+  "linhas_vegetacao": 6400,
+  "compostos": 25,
+  "valores_ndvi_validos": 5515,
+  "sha256_relevo": "3fd76aac9e37754505912183ed950c7b9454f56177eaee90e7beb8e465562dec",
+  "sha256_vegetacao": "89bf222c1e4ae440194212014b3ea31f3929d8fc2d35dac34764d9e95e7e4e24",
+  "criterio_qualidade": "MODLAND=0, confiabilidade 0-2, terra, sem nuvem adjacente/mista, neve ou sombra; minimo 20% dos pixels"
+}

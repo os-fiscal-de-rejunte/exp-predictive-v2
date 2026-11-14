@@ -1,0 +1,874 @@
+{
+  "criado_em_utc": "2026-11-14T10:44:26.769655+00:00",
+  "sha256_previsoes": "ade5cd2f7e20a36c387eff423acd83778522d93fd027313fb5552a99ab469af5",
+  "sha256_relatorio": "7a62e7262c8f0116e803a365856bfd948751c967b8e29115e12ea3eaf218e475",
+  "sha256_mascaras": "2d86b32cdc939f8062eccf49c3e265a5abca9454bfb07915f8a1409cecebe3b0",
+  "status": "metricas_recalculadas_conferem",
+  "calibracao_no_teste": {
+    "com_geografia": {
+      "erro_absoluto_medio_por_faixa": 0.013726751955595244,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 7078,
+          "positivos": 471,
+          "probabilidade_media": 0.06027462164423905,
+          "frequencia_observada": 0.06654422153150608
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4389,
+          "positivos": 716,
+          "probabilidade_media": 0.14533629650805713,
+          "frequencia_observada": 0.16313511050353155
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 2521,
+          "positivos": 598,
+          "probabilidade_media": 0.2433810433769644,
+          "frequencia_observada": 0.23720745735819118
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1034,
+          "positivos": 395,
+          "probabilidade_media": 0.34391864270617895,
+          "frequencia_observada": 0.3820116054158607
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 659,
+          "positivos": 314,
+          "probabilidade_media": 0.4457589481017442,
+          "frequencia_observada": 0.4764795144157815
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 290,
+          "positivos": 178,
+          "probabilidade_media": 0.5418773714782639,
+          "frequencia_observada": 0.6137931034482759
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 29,
+          "positivos": 17,
+          "probabilidade_media": 0.6234710135833919,
+          "frequencia_observada": 0.5862068965517241
+        }
+      ]
+    },
+    "sem_vegetacao": {
+      "erro_absoluto_medio_por_faixa": 0.018162058302985198,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 7616,
+          "positivos": 524,
+          "probabilidade_media": 0.053833318953892706,
+          "frequencia_observada": 0.06880252100840337
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4175,
+          "positivos": 678,
+          "probabilidade_media": 0.14596396842144307,
+          "frequencia_observada": 0.16239520958083833
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 2139,
+          "positivos": 586,
+          "probabilidade_media": 0.24275990349563775,
+          "frequencia_observada": 0.27395979429640016
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1105,
+          "positivos": 396,
+          "probabilidade_media": 0.34275792782254755,
+          "frequencia_observada": 0.3583710407239819
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 538,
+          "positivos": 245,
+          "probabilidade_media": 0.44310535661735145,
+          "frequencia_observada": 0.45539033457249073
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 274,
+          "positivos": 160,
+          "probabilidade_media": 0.5449444938506864,
+          "frequencia_observada": 0.583941605839416
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 100,
+          "positivos": 62,
+          "probabilidade_media": 0.6402650974065491,
+          "frequencia_observada": 0.62
+        },
+        {
+          "intervalo": [
+            0.7,
+            0.8
+          ],
+          "linhas": 35,
+          "positivos": 24,
+          "probabilidade_media": 0.7524755076838126,
+          "frequencia_observada": 0.6857142857142857
+        },
+        {
+          "intervalo": [
+            0.8,
+            0.9
+          ],
+          "linhas": 12,
+          "positivos": 8,
+          "probabilidade_media": 0.8292935344804712,
+          "frequencia_observada": 0.6666666666666666
+        },
+        {
+          "intervalo": [
+            0.9,
+            1.0
+          ],
+          "linhas": 6,
+          "positivos": 6,
+          "probabilidade_media": 0.9351999611519547,
+          "frequencia_observada": 1.0
+        }
+      ]
+    },
+    "sem_relevo": {
+      "erro_absoluto_medio_por_faixa": 0.009935656790406233,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 6895,
+          "positivos": 428,
+          "probabilidade_media": 0.06257073129129805,
+          "frequencia_observada": 0.06207396664249456
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4177,
+          "positivos": 683,
+          "probabilidade_media": 0.1456713029344027,
+          "frequencia_observada": 0.16351448407948288
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 2554,
+          "positivos": 569,
+          "probabilidade_media": 0.24630517425215342,
+          "frequencia_observada": 0.22278778386844167
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1161,
+          "positivos": 395,
+          "probabilidade_media": 0.3421253158225667,
+          "frequencia_observada": 0.34022394487510765
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 719,
+          "positivos": 326,
+          "probabilidade_media": 0.44892398913769127,
+          "frequencia_observada": 0.4534075104311544
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 397,
+          "positivos": 229,
+          "probabilidade_media": 0.5427709503274559,
+          "frequencia_observada": 0.5768261964735516
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 94,
+          "positivos": 57,
+          "probabilidade_media": 0.6262849011702127,
+          "frequencia_observada": 0.6063829787234043
+        },
+        {
+          "intervalo": [
+            0.7,
+            0.8
+          ],
+          "linhas": 3,
+          "positivos": 2,
+          "probabilidade_media": 0.7096922666666666,
+          "frequencia_observada": 0.6666666666666666
+        }
+      ]
+    },
+    "sem_geografia": {
+      "erro_absoluto_medio_por_faixa": 0.01652131998595273,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 7634,
+          "positivos": 523,
+          "probabilidade_media": 0.05428344461967727,
+          "frequencia_observada": 0.06850930049777312
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4092,
+          "positivos": 675,
+          "probabilidade_media": 0.14627478380996506,
+          "frequencia_observada": 0.16495601173020527
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 2180,
+          "positivos": 580,
+          "probabilidade_media": 0.24331954422705698,
+          "frequencia_observada": 0.26605504587155965
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1108,
+          "positivos": 401,
+          "probabilidade_media": 0.34500185582876625,
+          "frequencia_observada": 0.361913357400722
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 539,
+          "positivos": 242,
+          "probabilidade_media": 0.4449109008781365,
+          "frequencia_observada": 0.4489795918367347
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 275,
+          "positivos": 154,
+          "probabilidade_media": 0.5433657805029227,
+          "frequencia_observada": 0.56
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 117,
+          "positivos": 74,
+          "probabilidade_media": 0.6403257852344627,
+          "frequencia_observada": 0.6324786324786325
+        },
+        {
+          "intervalo": [
+            0.7,
+            0.8
+          ],
+          "linhas": 37,
+          "positivos": 26,
+          "probabilidade_media": 0.7488356234188911,
+          "frequencia_observada": 0.7027027027027027
+        },
+        {
+          "intervalo": [
+            0.8,
+            0.9
+          ],
+          "linhas": 11,
+          "positivos": 8,
+          "probabilidade_media": 0.8244138456264832,
+          "frequencia_observada": 0.7272727272727273
+        },
+        {
+          "intervalo": [
+            0.9,
+            1.0
+          ],
+          "linhas": 7,
+          "positivos": 6,
+          "probabilidade_media": 0.9335702851844304,
+          "frequencia_observada": 0.8571428571428571
+        }
+      ]
+    },
+    "sem_firms": {
+      "erro_absoluto_medio_por_faixa": 0.021213582516680554,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 7293,
+          "positivos": 557,
+          "probabilidade_media": 0.0654601801015966,
+          "frequencia_observada": 0.0763746057863705
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4881,
+          "positivos": 769,
+          "probabilidade_media": 0.13768796211821963,
+          "frequencia_observada": 0.15754968244212253
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 1586,
+          "positivos": 432,
+          "probabilidade_media": 0.2431517509202065,
+          "frequencia_observada": 0.2723833543505675
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 925,
+          "positivos": 310,
+          "probabilidade_media": 0.34564833262709804,
+          "frequencia_observada": 0.33513513513513515
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 522,
+          "positivos": 215,
+          "probabilidade_media": 0.4437775750044188,
+          "frequencia_observada": 0.4118773946360153
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 358,
+          "positivos": 170,
+          "probabilidade_media": 0.5440062345090448,
+          "frequencia_observada": 0.4748603351955307
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 248,
+          "positivos": 130,
+          "probabilidade_media": 0.6460691721424202,
+          "frequencia_observada": 0.5241935483870968
+        },
+        {
+          "intervalo": [
+            0.7,
+            0.8
+          ],
+          "linhas": 160,
+          "positivos": 90,
+          "probabilidade_media": 0.7430642129718896,
+          "frequencia_observada": 0.5625
+        },
+        {
+          "intervalo": [
+            0.8,
+            0.9
+          ],
+          "linhas": 27,
+          "positivos": 16,
+          "probabilidade_media": 0.8246581945510101,
+          "frequencia_observada": 0.5925925925925926
+        }
+      ]
+    },
+    "firms_sem_mascara": {
+      "erro_absoluto_medio_por_faixa": 0.014247330299099149,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 7082,
+          "positivos": 448,
+          "probabilidade_media": 0.06016309900011762,
+          "frequencia_observada": 0.06325896639367411
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 4452,
+          "positivos": 769,
+          "probabilidade_media": 0.14230704070898853,
+          "frequencia_observada": 0.17273135669362086
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 2282,
+          "positivos": 578,
+          "probabilidade_media": 0.24555153856018988,
+          "frequencia_observada": 0.2532865907099036
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1417,
+          "positivos": 530,
+          "probabilidade_media": 0.3451411718297924,
+          "frequencia_observada": 0.374029640084686
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 566,
+          "positivos": 257,
+          "probabilidade_media": 0.43982203194790365,
+          "frequencia_observada": 0.4540636042402827
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 175,
+          "positivos": 90,
+          "probabilidade_media": 0.5327518370076416,
+          "frequencia_observada": 0.5142857142857142
+        },
+        {
+          "intervalo": [
+            0.6,
+            0.7
+          ],
+          "linhas": 24,
+          "positivos": 15,
+          "probabilidade_media": 0.6299058140946933,
+          "frequencia_observada": 0.625
+        },
+        {
+          "intervalo": [
+            0.7,
+            0.8
+          ],
+          "linhas": 2,
+          "positivos": 2,
+          "probabilidade_media": 0.706546157045578,
+          "frequencia_observada": 1.0
+        }
+      ]
+    },
+    "clima_geografia": {
+      "erro_absoluto_medio_por_faixa": 0.026564756293374993,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 3824,
+          "positivos": 378,
+          "probabilidade_media": 0.06029541543200837,
+          "frequencia_observada": 0.09884937238493724
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 6233,
+          "positivos": 977,
+          "probabilidade_media": 0.15027706519075887,
+          "frequencia_observada": 0.15674635007219637
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 4689,
+          "positivos": 975,
+          "probabilidade_media": 0.24159546546385155,
+          "frequencia_observada": 0.20793346129238643
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 1063,
+          "positivos": 286,
+          "probabilidade_media": 0.33042465437441204,
+          "frequencia_observada": 0.26904985888993416
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 159,
+          "positivos": 56,
+          "probabilidade_media": 0.43885168974842775,
+          "frequencia_observada": 0.3522012578616352
+        },
+        {
+          "intervalo": [
+            0.5,
+            0.6
+          ],
+          "linhas": 32,
+          "positivos": 17,
+          "probabilidade_media": 0.5180389746875,
+          "frequencia_observada": 0.53125
+        }
+      ]
+    },
+    "somente_clima": {
+      "erro_absoluto_medio_por_faixa": 0.03187573336975,
+      "faixas": [
+        {
+          "intervalo": [
+            0.0,
+            0.1
+          ],
+          "linhas": 3441,
+          "positivos": 350,
+          "probabilidade_media": 0.06085573639930253,
+          "frequencia_observada": 0.1017146178436501
+        },
+        {
+          "intervalo": [
+            0.1,
+            0.2
+          ],
+          "linhas": 6608,
+          "positivos": 1104,
+          "probabilidade_media": 0.1541238124113196,
+          "frequencia_observada": 0.16707021791767554
+        },
+        {
+          "intervalo": [
+            0.2,
+            0.3
+          ],
+          "linhas": 5169,
+          "positivos": 991,
+          "probabilidade_media": 0.24280325686012766,
+          "frequencia_observada": 0.19171986844650804
+        },
+        {
+          "intervalo": [
+            0.3,
+            0.4
+          ],
+          "linhas": 774,
+          "positivos": 239,
+          "probabilidade_media": 0.33219587102067183,
+          "frequencia_observada": 0.3087855297157623
+        },
+        {
+          "intervalo": [
+            0.4,
+            0.5
+          ],
+          "linhas": 8,
+          "positivos": 5,
+          "probabilidade_media": 0.41289545,
+          "frequencia_observada": 0.625
+        }
+      ]
+    }
+  },
+  "cobertura_mensal": [
+    {
+      "mes": "2024-01",
+      "linhas": 7936,
+      "completas": 2144,
+      "frac_completas": 0.2701612903225806,
+      "positivas_completas": 46,
+      "positivas_incompletas": 57
+    },
+    {
+      "mes": "2024-02",
+      "linhas": 7424,
+      "completas": 2182,
+      "frac_completas": 0.2939116379310345,
+      "positivas_completas": 36,
+      "positivas_incompletas": 29
+    },
+    {
+      "mes": "2024-03",
+      "linhas": 7936,
+      "completas": 4884,
+      "frac_completas": 0.6154233870967742,
+      "positivas_completas": 116,
+      "positivas_incompletas": 69
+    },
+    {
+      "mes": "2024-04",
+      "linhas": 7680,
+      "completas": 4724,
+      "frac_completas": 0.6151041666666667,
+      "positivas_completas": 97,
+      "positivas_incompletas": 20
+    },
+    {
+      "mes": "2024-05",
+      "linhas": 7936,
+      "completas": 7656,
+      "frac_completas": 0.9647177419354839,
+      "positivas_completas": 352,
+      "positivas_incompletas": 2
+    },
+    {
+      "mes": "2024-06",
+      "linhas": 7680,
+      "completas": 7468,
+      "frac_completas": 0.9723958333333333,
+      "positivas_completas": 469,
+      "positivas_incompletas": 8
+    },
+    {
+      "mes": "2024-07",
+      "linhas": 7936,
+      "completas": 7838,
+      "frac_completas": 0.9876512096774194,
+      "positivas_completas": 474,
+      "positivas_incompletas": 2
+    },
+    {
+      "mes": "2024-08",
+      "linhas": 7936,
+      "completas": 7801,
+      "frac_completas": 0.9829889112903226,
+      "positivas_completas": 748,
+      "positivas_incompletas": 3
+    },
+    {
+      "mes": "2024-09",
+      "linhas": 7680,
+      "completas": 7353,
+      "frac_completas": 0.957421875,
+      "positivas_completas": 1311,
+      "positivas_incompletas": 26
+    },
+    {
+      "mes": "2024-10",
+      "linhas": 7936,
+      "completas": 5447,
+      "frac_completas": 0.6863659274193549,
+      "positivas_completas": 895,
+      "positivas_incompletas": 123
+    },
+    {
+      "mes": "2024-11",
+      "linhas": 7680,
+      "completas": 3699,
+      "frac_completas": 0.481640625,
+      "positivas_completas": 299,
+      "positivas_incompletas": 121
+    },
+    {
+      "mes": "2024-12",
+      "linhas": 7936,
+      "completas": 4408,
+      "frac_completas": 0.5554435483870968,
+      "positivas_completas": 165,
+      "positivas_incompletas": 55
+    },
+    {
+      "mes": "2025-01",
+      "linhas": 7936,
+      "completas": 2463,
+      "frac_completas": 0.3103578629032258,
+      "positivas_completas": 47,
+      "positivas_incompletas": 30
+    },
+    {
+      "mes": "2025-02",
+      "linhas": 7168,
+      "completas": 2575,
+      "frac_completas": 0.35923549107142855,
+      "positivas_completas": 51,
+      "positivas_incompletas": 32
+    },
+    {
+      "mes": "2025-03",
+      "linhas": 7936,
+      "completas": 4037,
+      "frac_completas": 0.5086945564516129,
+      "positivas_completas": 64,
+      "positivas_incompletas": 37
+    },
+    {
+      "mes": "2025-04",
+      "linhas": 7680,
+      "completas": 4781,
+      "frac_completas": 0.6225260416666667,
+      "positivas_completas": 74,
+      "positivas_incompletas": 26
+    },
+    {
+      "mes": "2025-05",
+      "linhas": 7936,
+      "completas": 6973,
+      "frac_completas": 0.8786542338709677,
+      "positivas_completas": 287,
+      "positivas_incompletas": 15
+    },
+    {
+      "mes": "2025-06",
+      "linhas": 7680,
+      "completas": 7367,
+      "frac_completas": 0.9592447916666667,
+      "positivas_completas": 371,
+      "positivas_incompletas": 8
+    },
+    {
+      "mes": "2025-07",
+      "linhas": 7936,
+      "completas": 7774,
+      "frac_completas": 0.9795866935483871,
+      "positivas_completas": 424,
+      "positivas_incompletas": 1
+    },
+    {
+      "mes": "2025-08",
+      "linhas": 7936,
+      "completas": 7476,
+      "frac_completas": 0.9420362903225806,
+      "positivas_completas": 656,
+      "positivas_incompletas": 22
+    },
+    {
+      "mes": "2025-09",
+      "linhas": 7680,
+      "completas": 7171,
+      "frac_completas": 0.9337239583333333,
+      "positivas_completas": 1307,
+      "positivas_incompletas": 57
+    },
+    {
+      "mes": "2025-10",
+      "linhas": 7936,
+      "completas": 6368,
+      "frac_completas": 0.8024193548387096,
+      "positivas_completas": 1201,
+      "positivas_incompletas": 119
+    },
+    {
+      "mes": "2025-11",
+      "linhas": 7680,
+      "completas": 3293,
+      "frac_completas": 0.42877604166666666,
+      "positivas_completas": 419,
+      "positivas_incompletas": 127
+    },
+    {
+      "mes": "2025-12",
+      "linhas": 7936,
+      "completas": 1561,
+      "frac_completas": 0.1966985887096774,
+      "positivas_completas": 80,
+      "positivas_incompletas": 92
+    }
+  ],
+  "limites": "Teste retrospectivo ja explorado. Faixas com poucos casos sao instaveis; a dependencia entre celulas e dias impede tratar as linhas como observacoes independentes."
+}

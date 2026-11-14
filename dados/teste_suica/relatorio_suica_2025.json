@@ -1,0 +1,230 @@
+{
+  "status": "exploratorio_inconclusivo",
+  "criado_em_utc": "2026-11-14T11:22:27.012797+00:00",
+  "pais": "Suica",
+  "ano": 2025,
+  "populacao": {
+    "celulas_internas": 52,
+    "celulas_dia": 18980,
+    "mascaras_completas": 5697,
+    "mascaras_incompletas": 13283,
+    "testaveis": 5697,
+    "sem_clima": 0,
+    "modo_firms": 5396,
+    "modo_clima": 301
+  },
+  "metricas": {
+    "linhas": 5697,
+    "positivos": 23,
+    "positivos_previstos": 0,
+    "acuracia": 0.9959627874319817,
+    "precisao": null,
+    "revocacao": 0.0,
+    "average_precision": 0.027819898655012075,
+    "brier": 0.006236025170101437,
+    "matriz_confusao": [
+      [
+        5674,
+        0
+      ],
+      [
+        23,
+        0
+      ]
+    ]
+  },
+  "por_modo": {
+    "firms_sem_mascara": {
+      "linhas": 5396,
+      "positivos": 23,
+      "positivos_previstos": 0,
+      "acuracia": 0.9957375833951075,
+      "precisao": null,
+      "revocacao": 0.0,
+      "average_precision": 0.027883031576132856,
+      "brier": 0.00653304820088117,
+      "matriz_confusao": [
+        [
+          5373,
+          0
+        ],
+        [
+          23,
+          0
+        ]
+      ],
+      "limiar": 0.25277213528681464,
+      "maior_probabilidade": 0.23804367898639375
+    },
+    "somente_clima": {
+      "linhas": 301,
+      "positivos": 0,
+      "positivos_previstos": 0,
+      "acuracia": 1.0,
+      "precisao": null,
+      "revocacao": null,
+      "average_precision": null,
+      "brier": 0.000911319940575057,
+      "matriz_confusao": [
+        [
+          301,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "limiar": 0.1311006098985672,
+      "maior_probabilidade": 0.05282052233815193
+    }
+  },
+  "por_mes": [
+    {
+      "mes": "2025-01",
+      "linhas": 198,
+      "positivos": 0,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-02",
+      "linhas": 200,
+      "positivos": 0,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-03",
+      "linhas": 285,
+      "positivos": 3,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-04",
+      "linhas": 420,
+      "positivos": 1,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-05",
+      "linhas": 384,
+      "positivos": 1,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-06",
+      "linhas": 867,
+      "positivos": 4,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-07",
+      "linhas": 598,
+      "positivos": 4,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-08",
+      "linhas": 1000,
+      "positivos": 5,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-09",
+      "linhas": 556,
+      "positivos": 4,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-10",
+      "linhas": 560,
+      "positivos": 0,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-11",
+      "linhas": 285,
+      "positivos": 1,
+      "acertos_positivos": 0
+    },
+    {
+      "mes": "2025-12",
+      "linhas": 344,
+      "positivos": 0,
+      "acertos_positivos": 0
+    }
+  ],
+  "comparacao_intervalos_entrada": {
+    "latitude": {
+      "min_treino": -11.875,
+      "max_treino": -8.125,
+      "min_suica": 46.125,
+      "max_suica": 47.375,
+      "fracao_fora_intervalo_treino": 1.0
+    },
+    "longitude": {
+      "min_treino": -46.875,
+      "max_treino": -44.625,
+      "min_suica": 6.625,
+      "max_suica": 9.875,
+      "fracao_fora_intervalo_treino": 1.0
+    },
+    "clima_T2M": {
+      "min_treino": 21.83375,
+      "max_treino": 33.9975,
+      "min_suica": -8.10875,
+      "max_suica": 23.92125,
+      "fracao_fora_intervalo_treino": 0.9726171669299631
+    },
+    "clima_RH2M": {
+      "min_treino": 24.06625,
+      "max_treino": 87.11875,
+      "min_suica": 50.067499999999995,
+      "max_suica": 96.765,
+      "fracao_fora_intervalo_treino": 0.1323503598385115
+    },
+    "clima_PRECTOTCORR": {
+      "min_treino": 0.0,
+      "max_treino": 171.93,
+      "min_suica": 0.0,
+      "max_suica": 149.05,
+      "fracao_fora_intervalo_treino": 0.0
+    },
+    "vegetacao_ndvi": {
+      "min_treino": 0.22056568457538986,
+      "max_treino": 0.8829728395061729,
+      "min_suica": 0.3557284132841332,
+      "max_suica": 0.8447324090121308,
+      "fracao_fora_intervalo_treino": 0.0
+    },
+    "altitude_media_m": {
+      "min_treino": 328.5407925925926,
+      "max_treino": 817.7442641975308,
+      "min_suica": 499.05415555555555,
+      "max_suica": 2590.033175308642,
+      "fracao_fora_intervalo_treino": 0.45831139196068105
+    }
+  },
+  "referencia_sempre_sem_deteccao": {
+    "acuracia": 0.9959627874319817,
+    "revocacao": 0.0,
+    "brier": 0.004037212568018255
+  },
+  "modelo_sha256": "bb986c9610280c1cf6bf19c37755f430c649a5d0a671727dac3d8808d145fd16",
+  "fontes_sha256": {
+    "mascaras": "56d762f0fb70ce73554ee5ebe69ed49d1832cd1cf2bd627fa75a1e0fd1a7345e",
+    "clima": "0ac20d845d5e460f065c8ae7e1e6cabe0bc2d2678b34e0519c937e8544d3b314",
+    "firms": "cfd07832815881b48cc1febc091374f5ca5daa1cc574b85828c9aef1422a9130",
+    "vegetacao": "b05f2b0132de365dfe72067bdca805b8e2a071e378ab0e870ced94ea770d3357",
+    "relevo": "1666a5d4ea74f22c35486e1190d8a57ffda4c87ec5160fa3a237d37d3e07af08",
+    "grade": "06992ebe257235a656f1aff3c5b38f6206cb6defb85fcddb2f44f3ba04e1d65f",
+    "caracteristicas": "133fa76680a468ecf393a086c8ca2e70f02ff7abdbdd97d62321d1ca6a0518d0"
+  },
+  "previsoes_sha256": "68f37078e89a00d0147e0585139cebdc127d3323fa9b5014934bde88ab7f8e0f",
+  "limites": [
+    "Celulas inteiras internas da Suica, nao o pais todo.",
+    "Teste retrospectivo; POWER pode ter sido revisado e FIRMS SP pode diferir do NRT.",
+    "Modelo treinado no MATOPIBA; entradas podem estar fora do dominio de treinamento.",
+    "Rotulo condicionado a mascara VIIRS integralmente classificada; nao mede incendios em geral.",
+    "Menos de 50 positivos torna a avaliacao inconclusiva; celulas e dias sao dependentes."
+  ]
+}

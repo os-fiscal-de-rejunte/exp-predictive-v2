@@ -1,0 +1,335 @@
+{
+  "fonte": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "inicio": "2023-12-22",
+  "fim": "2025-12-31",
+  "celulas": 63,
+  "linhas": 46683,
+  "ausentes": {
+    "T2M": 0,
+    "RH2M": 0,
+    "PRECTOTCORR": 0,
+    "WS10M": 0,
+    "GWETROOT": 0
+  },
+  "sha256_grade": "ba0ab5105eb5d423d0888c058d44f4e1b83c3d9b42ab306fc949ba4799d864db",
+  "sha256_arquivo": "a91f3fab489202175c0ed838c10a0af711b8a899aa8b7e39ecf0d27ed1e91767",
+  "coletado_em_utc": "2026-11-14T04:30:19.555768+00:00",
+  "respostas": [
+    {
+      "latitude": -12.0,
+      "longitude": -46.25,
+      "sha256_resposta": "4d5a29841a5f93a6fc0e343a7d5d93b4aa0861c0663c87ef9529f85c3ec8ccc4"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -46.875,
+      "sha256_resposta": "435a71677a18c71b92cd3005c29af55e5ef6d5b03d8acd969da750a5466796b1"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -45.625,
+      "sha256_resposta": "0356df1970cfedfb7f086491fc12f8cee424287d80dfc8c11cfb286553368bf1"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -45.0,
+      "sha256_resposta": "41104abfe1430e08f931d9f61f179ffda0af4af436a06010df3c2187f5684926"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -44.375,
+      "sha256_resposta": "249e2210cd803fe06447883d53f17d00ffb93aca7bdb36511fe8580604a5c809"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -43.125,
+      "sha256_resposta": "603712674fb590e00f309c4b273c4ce5483904ac65d8b23cb522723a884f5d8b"
+    },
+    {
+      "latitude": -12.0,
+      "longitude": -43.75,
+      "sha256_resposta": "a4c170ceef3db61395d4676602cfbc74942bbfde50697eff0976744548239d1a"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -46.875,
+      "sha256_resposta": "da482c399c0c6657434501fab989ed3b6f77e663db97caec16b04e8c2efc2c71"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -46.25,
+      "sha256_resposta": "2d9f8596f1e0f56537d8c92ac56556c2790ff0f7161fd1a66c5ed9024fa52058"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -45.625,
+      "sha256_resposta": "6687c43441e07876ea184a6d9718384b5704969dc50cf989c791757bbf4b2da7"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -45.0,
+      "sha256_resposta": "59d3e650592bc0ec48b8c2a965bb2d53a3eb7bf24e3c80d28a950a3d8c11bbc1"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -44.375,
+      "sha256_resposta": "0b48a3d96b6a4697e2fe2eeeb0bc6b9bed77673e53c7be5d24399a46cd8ebed6"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -43.75,
+      "sha256_resposta": "d8933862b38fac0f438848dd0e383670b29fe274cf9c07bf49dfb11afd266f4a"
+    },
+    {
+      "latitude": -11.5,
+      "longitude": -43.125,
+      "sha256_resposta": "f747012313e46479854273e952b4ac6a95690398a4c11d9fbd259bce5976d353"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -46.875,
+      "sha256_resposta": "3c78ec796a472e4b39c8c05c2e2718f0c5f068fd9b8a5d14fb2a07e51c39e3b6"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -46.25,
+      "sha256_resposta": "11328ad25edab5f9d85720bbc6d0ad8b92ceed51929f4f1093ecda868bb553d2"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -45.625,
+      "sha256_resposta": "d89be75e93eefa390d5e1c792fa6ec9cada9ef60b5eebe4b467bde5049d0f2de"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -45.0,
+      "sha256_resposta": "4a3b6891e12e0573d5f4228b56b585a5d4cb1c1f63675ff318a3a2ec3d756894"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -44.375,
+      "sha256_resposta": "cdc87798d5460577e96045dd9b2133ddb674c9e3aa12b29a004ede58b8b07a1e"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -43.75,
+      "sha256_resposta": "e1d6acfc5e82c5ae92c26af4127d9226808c54ac01cefad18032d8c70f452df4"
+    },
+    {
+      "latitude": -11.0,
+      "longitude": -43.125,
+      "sha256_resposta": "84f84e6480d9db90341dfcb37fba8b17d0c6cc83abf6c479a3d0246bf4e3b232"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -46.875,
+      "sha256_resposta": "64bee20c8e6b42f14fe73275eff81bc1b47dc24d2e04f9351aaebe363fa128b9"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -46.25,
+      "sha256_resposta": "386e6f4108782134d37484a46bbf2e0aabac7e352ead78d4a583fb71dcde4ad1"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -45.625,
+      "sha256_resposta": "cefbe59b24d2080378c66ee4d33a01a36552381763b7e5323a25ac8944201b05"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -45.0,
+      "sha256_resposta": "870fcdbe98cf485d27d38754d6c7c3e7af15a7d1a86c19977ff2d05990a01813"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -44.375,
+      "sha256_resposta": "1b8c7a46e9a56d55bf5cfae1c6ca1291ebb6de481130f3d8527368a01beea441"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -43.75,
+      "sha256_resposta": "21b22bd1a4206b273fafafa8747eac3e631e17d7907658537ad8100182ec8af9"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -46.875,
+      "sha256_resposta": "552ccd70919dbb0485674f933e6096741e4c20f2b160573d82eeedf245974636"
+    },
+    {
+      "latitude": -10.5,
+      "longitude": -43.125,
+      "sha256_resposta": "81c6623df2fdc0e3e2124536ec01307a8a05dc3a0f25747b7e0a414b6b13b6a2"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -46.25,
+      "sha256_resposta": "9b8fa6a0cdfea49b546a18529093517fd4c34befed92ab573da511b58bbade6c"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -45.625,
+      "sha256_resposta": "99fde346b8d287583082cab0d8978f5bc0934f66a34033b4b19f728491e91074"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -45.0,
+      "sha256_resposta": "6e3730d0e95ad776ee93e21f10d5dcf3c3f8c93188d0ce640967c81fb9a63b84"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -44.375,
+      "sha256_resposta": "347bb9f4867a26036de7b2b71bc80ace3efb3297a978ccd338c53094bc6ebe67"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -43.75,
+      "sha256_resposta": "19aacd00d19d26249861cd136952b09632dd640259a59ab9b9df74f945558674"
+    },
+    {
+      "latitude": -10.0,
+      "longitude": -43.125,
+      "sha256_resposta": "796fbd43fab093b14cf7c90873b7705e8d9736dcbcb775652245d2c43310b118"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -46.875,
+      "sha256_resposta": "70376c274822f0a7b3a1f8771abffee030c9f3a3adda6f56b53a6dad1799e1ac"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -46.25,
+      "sha256_resposta": "8280d0586d5f64b4bdc841ff8475cc45a58a943f5f899cd65a5cfacfc25f692f"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -45.625,
+      "sha256_resposta": "cc1dba5ed503ce291907f7b6c9840d101a403d7cbb3aa09d77765a8315dcc61a"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -45.0,
+      "sha256_resposta": "d17fc82b2e03ae35355dabdd063a7356ca41999bf5fd96fdbf4faed3f9584c53"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -44.375,
+      "sha256_resposta": "ec32d1e2a8cc82ea003ba784019e414aac624903c43554c6befdcca88e2e3deb"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -43.125,
+      "sha256_resposta": "7f522321ed39d9ff3632d95bcd098756bcb4b9faca9e6526b5f6a3c35b0cb808"
+    },
+    {
+      "latitude": -9.5,
+      "longitude": -43.75,
+      "sha256_resposta": "605f635aaf700e4e524a430b7485a6e6b0e2ccf69b064ecb00ddb6be715b894c"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -46.875,
+      "sha256_resposta": "e42e8e56177383da843a675cd9ccdb3f316af6ec19f17ab8ff24f5afd7fb43c8"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -46.25,
+      "sha256_resposta": "88698316ec30fb8b702bd89c862a97564cc798a070df37fcc4fe969b190ab3ac"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -45.625,
+      "sha256_resposta": "6c4e3500788a44094587d838136f79a69782389723dfc162526778f9e7f343e8"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -45.0,
+      "sha256_resposta": "342ce2299b0f80734cc2f975f9e9f8c13568884e1763c2cf55c1dfe016eb6081"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -44.375,
+      "sha256_resposta": "5fc2de572a798d8d2d812b5d27b9090ad47b31ef3b2bc57a2502b773735d3718"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -43.75,
+      "sha256_resposta": "557e6245f010e79cb39977c4cb2befd97e50e4c968491fd036afb32f373f5c28"
+    },
+    {
+      "latitude": -9.0,
+      "longitude": -43.125,
+      "sha256_resposta": "3964e5ce83e61a0cb597891d5486d0bda5c8af150b04949d73122fa548200c6f"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -46.875,
+      "sha256_resposta": "5adecb0c0d209872bf880416bba1cbb3c2cdbf8558a9026678a947c094b49dea"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -46.25,
+      "sha256_resposta": "79e20b0430342f09250f240ac035ce6268db916ba4ff0b13d72ceb1e230b1198"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -45.625,
+      "sha256_resposta": "491f0ccbc52e6a0b0dacfb7d1c8d62db78d3b8fc7f002b35ca6e82206058705a"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -45.0,
+      "sha256_resposta": "8bb8645d6f80a7a7c61fb048365e643bf9f83229218597130b51745eb96ba7a5"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -44.375,
+      "sha256_resposta": "f2bc5e1133bf18ebb1e3ec24f3906c072dfb1ca82934f54cbe43414056bf768a"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -43.125,
+      "sha256_resposta": "efdb2efd2cd1a3351efa4263bddf76bedf58637c41b6ba7946e2b0982947ac95"
+    },
+    {
+      "latitude": -8.5,
+      "longitude": -43.75,
+      "sha256_resposta": "332e18927216af6dbadd67be113ac33a4a84d2e3791866062c58b2a91b64d989"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -46.875,
+      "sha256_resposta": "fbe5a200c08e5298d8fe1b4000ba5676840eacdf0b3833b62b3f0aff64b9711c"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -46.25,
+      "sha256_resposta": "ac0f513b82539103efca2971a34bc5a10faa642e57d4d2d482b5b0142a2a48bb"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -45.625,
+      "sha256_resposta": "4a1e36e03784791bf31f124d410c50c1ad77da571780cd945cc610ae131f335a"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -44.375,
+      "sha256_resposta": "a8109577f04cc0f37d4b21f1e8585ed6d922a207dc0dfa3c31a42c8f88311804"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -45.0,
+      "sha256_resposta": "c435e2199257d3cbb32615f65883cbcd75a7ce81c97c59695d219d36794a6cfd"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -43.75,
+      "sha256_resposta": "2d2e864f884684f117b17be36262d388a0b3fcb843d439a206aa8f6c54d3acf8"
+    },
+    {
+      "latitude": -8.0,
+      "longitude": -43.125,
+      "sha256_resposta": "b1d4a2557607523aefae8a005639ace4d81f14afb8d388080a772ba661154ca7"
+    }
+  ],
+  "limite": "POWER historico pode ter sido revisado; nao prova disponibilidade na data simulada."
+}

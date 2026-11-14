@@ -1,0 +1,16 @@
+{
+  "produto": "MCD12Q1.061",
+  "anos": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "celulas_ano": 1024,
+  "classificadas": 1024,
+  "criterio": "IGBP 1 a 16, QC=0 e LW=2; minimo 20% dos pixels da celula; mascara geografica nominal 500 m.",
+  "disponibilidade": "Maior entre fim do ano, data de producao e atualizacao no catalogo dos dois tiles.",
+  "sha256_grade": "ba0ab5105eb5d423d0888c058d44f4e1b83c3d9b42ab306fc949ba4799d864db",
+  "sha256_arquivo": "87afa7fb372dff85723fa609a322133d643530937e40c7f5fe9587a973ebb2ef",
+  "sha256_manifesto": "a9dfc1d867204b1505dec058f9653a9699dd1bdc0788a7dd5de77f9a494ec35f"
+}

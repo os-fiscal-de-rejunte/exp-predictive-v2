@@ -1,0 +1,11 @@
+/dados/base_viirs_regional.csv -text whitespace=cr-at-eol
+/dados/natural_earth_50m_paises.geojson -text whitespace=cr-at-eol
+/dados/evolucao/*.csv -text whitespace=cr-at-eol
+/dados/evolucao/*.json -text whitespace=cr-at-eol
+/dados/teste_suica/*.csv -text whitespace=cr-at-eol
+/dados/teste_suica/*.json -text whitespace=cr-at-eol
+/modelo/artefatos/evolucao_grade/*.csv -text whitespace=cr-at-eol
+/modelo/artefatos/evolucao_grade/*.json -text whitespace=cr-at-eol
+/modelo/artefatos/evolucao_recortes/*.json -text whitespace=cr-at-eol
+/modelo/artefatos/evolucao_vizinhanca/*.json -text whitespace=cr-at-eol
+/modelo/artefatos/evolucao_cobertura_solo/*.json -text whitespace=cr-at-eol

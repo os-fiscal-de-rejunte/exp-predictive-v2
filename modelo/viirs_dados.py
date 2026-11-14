@@ -165,7 +165,7 @@ def preparar(origem, saida, metadados):
         dados[coluna] = dados[coluna].map(lambda itens: "|".join(str(item) for item in itens))
     saida.parent.mkdir(parents=True, exist_ok=True)
     metadados.parent.mkdir(parents=True, exist_ok=True)
-    dados[COLUNAS].to_csv(saida, index=False)
+    dados[COLUNAS].to_csv(saida, index=False, lineterminator="\r\n")
     conhecidos = dados[dados["fully_observed"]]
     descricao = {
         "produto": "VJ114A1.002 / VIIRS NOAA-20 / FireMask diario 1 km",

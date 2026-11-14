@@ -1,0 +1,235 @@
+{
+  "arquivos": {
+    "NASADEM_HGT_n46e006.zip": {
+      "nome": "NASADEM_HGT_n46e006.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n46e006/NASADEM_HGT_n46e006.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 11.4818,
+      "sha256": "30a7c83142e65960408f0096945c6d504f5f90f6f40a869068a7cbd3b2408b5c",
+      "bytes": 12039503,
+      "baixado_em_utc": "2026-11-14T11:14:52.537420+00:00"
+    },
+    "NASADEM_HGT_n46e007.zip": {
+      "nome": "NASADEM_HGT_n46e007.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n46e007/NASADEM_HGT_n46e007.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 15.9485,
+      "sha256": "0c78a14ff14d8989c22e161d7ecd705d365f4b1c751c2d1f66789ef39d4b6cb7",
+      "bytes": 16723243,
+      "baixado_em_utc": "2026-11-14T11:14:53.313276+00:00"
+    },
+    "NASADEM_HGT_n46e008.zip": {
+      "nome": "NASADEM_HGT_n46e008.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n46e008/NASADEM_HGT_n46e008.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 17.7856,
+      "sha256": "8a54f92c8ed3b4dfb76ba1149f8150840837b339d65bf160d1345bda04b1c950",
+      "bytes": 18649583,
+      "baixado_em_utc": "2026-11-14T11:14:54.737242+00:00"
+    },
+    "NASADEM_HGT_n47e007.zip": {
+      "nome": "NASADEM_HGT_n47e007.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n47e007/NASADEM_HGT_n47e007.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 10.3278,
+      "sha256": "f93479952e40f94d6db940e6967e13e81e474d5b1b1ce7b3edc014132877fda1",
+      "bytes": 10829531,
+      "baixado_em_utc": "2026-11-14T11:14:57.546335+00:00"
+    },
+    "NASADEM_HGT_n47e008.zip": {
+      "nome": "NASADEM_HGT_n47e008.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n47e008/NASADEM_HGT_n47e008.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 10.4486,
+      "sha256": "deaa81519d8e636e35a97e0e293b608634b3f3d0bd6d51274dc892e5471eb50f",
+      "bytes": 10956107,
+      "baixado_em_utc": "2026-11-14T11:14:58.959472+00:00"
+    },
+    "NASADEM_HGT_n46e009.zip": {
+      "nome": "NASADEM_HGT_n46e009.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n46e009/NASADEM_HGT_n46e009.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 17.5668,
+      "sha256": "57af96ce1a8223e0b1263dc20d68fc7f50e1e1487dbe6878c6066e7cdf725837",
+      "bytes": 18420097,
+      "baixado_em_utc": "2026-11-14T11:15:00.800860+00:00"
+    },
+    "VJ113A2.A2024337.h18v04.002.2024353090156.h5": {
+      "nome": "VJ113A2.A2024337.h18v04.002.2024353090156.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2024337.h18v04.002.2024353090156/VJ113A2.A2024337.h18v04.002.2024353090156.h5",
+      "inicio_utc": "2024-12-02T00:00:00.000Z",
+      "fim_utc": "2024-12-17T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.009010314941406,
+      "sha256": "1972b81df13a2acd71420c52ad54c442522d7d35f6637efb20061c1c87d2c044",
+      "bytes": 24126696,
+      "baixado_em_utc": "2026-11-14T11:15:03.841746+00:00"
+    },
+    "NASADEM_HGT_n47e009.zip": {
+      "nome": "NASADEM_HGT_n47e009.zip",
+      "produto": "NASADEM_HGT",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/NASADEM_HGT.001/NASADEM_HGT_n47e009/NASADEM_HGT_n47e009.zip",
+      "inicio_utc": "2000-02-11T00:00:00.000Z",
+      "fim_utc": "2000-02-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 11.0582,
+      "sha256": "16a58606cc3e134357423ef67c7fb0c85690bb759140e05bdb6ce2acfec9119a",
+      "bytes": 11595338,
+      "baixado_em_utc": "2026-11-14T11:15:05.555166+00:00"
+    },
+    "VJ113A2.A2025001.h18v04.002.2025017071559.h5": {
+      "nome": "VJ113A2.A2025001.h18v04.002.2025017071559.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025001.h18v04.002.2025017071559/VJ113A2.A2025001.h18v04.002.2025017071559.h5",
+      "inicio_utc": "2025-01-01T00:00:00.000Z",
+      "fim_utc": "2025-01-16T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.972196578979492,
+      "sha256": "94869187b22875067fe972a48f4f1092179289251c36f37dc26d4c3a6852dfb9",
+      "bytes": 24088094,
+      "baixado_em_utc": "2026-11-14T11:15:06.214061+00:00"
+    },
+    "VJ113A2.A2025033.h18v04.002.2025050015542.h5": {
+      "nome": "VJ113A2.A2025033.h18v04.002.2025050015542.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025033.h18v04.002.2025050015542/VJ113A2.A2025033.h18v04.002.2025050015542.h5",
+      "inicio_utc": "2025-02-02T00:00:00.000Z",
+      "fim_utc": "2025-02-17T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.925315856933594,
+      "sha256": "4c7f222901451399cbc6276269b3d6af087fc4aed483d1a7dc82845b6ebfb4c1",
+      "bytes": 24038936,
+      "baixado_em_utc": "2026-11-14T11:15:09.720256+00:00"
+    },
+    "VJ113A2.A2025065.h18v04.002.2025081075737.h5": {
+      "nome": "VJ113A2.A2025065.h18v04.002.2025081075737.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025065.h18v04.002.2025081075737/VJ113A2.A2025065.h18v04.002.2025081075737.h5",
+      "inicio_utc": "2025-03-06T00:00:00.000Z",
+      "fim_utc": "2025-03-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.83320140838623,
+      "sha256": "74eab3b787e088bcf12369ec64f8fd4a813169e5e21ff1feb833ece238f6aa16",
+      "bytes": 23942347,
+      "baixado_em_utc": "2026-11-14T11:15:12.378143+00:00"
+    },
+    "VJ113A2.A2025097.h18v04.002.2025113103255.h5": {
+      "nome": "VJ113A2.A2025097.h18v04.002.2025113103255.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025097.h18v04.002.2025113103255/VJ113A2.A2025097.h18v04.002.2025113103255.h5",
+      "inicio_utc": "2025-04-07T00:00:00.000Z",
+      "fim_utc": "2025-04-22T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.79627513885498,
+      "sha256": "b1ab82d27b7a50247f85be7e52cf48552e328671e797c2ee6c7d1f0802c7a6a9",
+      "bytes": 23903627,
+      "baixado_em_utc": "2026-11-14T11:15:14.196413+00:00"
+    },
+    "VJ113A2.A2025121.h18v04.002.2025137091230.h5": {
+      "nome": "VJ113A2.A2025121.h18v04.002.2025137091230.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025121.h18v04.002.2025137091230/VJ113A2.A2025121.h18v04.002.2025137091230.h5",
+      "inicio_utc": "2025-05-01T00:00:00.000Z",
+      "fim_utc": "2025-05-16T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.155832290649414,
+      "sha256": "9a6c2cce968528d95127e46af10e7a706c06e6f415e9cf25a43cc782c18c0636",
+      "bytes": 24280650,
+      "baixado_em_utc": "2026-11-14T11:15:15.413914+00:00"
+    },
+    "VJ113A2.A2025153.h18v04.002.2025169190313.h5": {
+      "nome": "VJ113A2.A2025153.h18v04.002.2025169190313.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025153.h18v04.002.2025169190313/VJ113A2.A2025153.h18v04.002.2025169190313.h5",
+      "inicio_utc": "2025-06-02T00:00:00.000Z",
+      "fim_utc": "2025-06-17T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.08915138244629,
+      "sha256": "3fa061caa81a27067d61039a2634cb2f5800c752150e1377b42823f71c46d4cb",
+      "bytes": 24210730,
+      "baixado_em_utc": "2026-11-14T11:15:18.172382+00:00"
+    },
+    "VJ113A2.A2025217.h18v04.002.2025233091805.h5": {
+      "nome": "VJ113A2.A2025217.h18v04.002.2025233091805.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025217.h18v04.002.2025233091805/VJ113A2.A2025217.h18v04.002.2025233091805.h5",
+      "inicio_utc": "2025-08-05T00:00:00.000Z",
+      "fim_utc": "2025-08-20T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.157130241394043,
+      "sha256": "8723155b5e26943571b3d64b2e8b204c00cd30b1630e237899becdd2d5b80772",
+      "bytes": 24282011,
+      "baixado_em_utc": "2026-11-14T11:15:20.930987+00:00"
+    },
+    "VJ113A2.A2025249.h18v04.002.2025265080136.h5": {
+      "nome": "VJ113A2.A2025249.h18v04.002.2025265080136.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025249.h18v04.002.2025265080136/VJ113A2.A2025249.h18v04.002.2025265080136.h5",
+      "inicio_utc": "2025-09-06T00:00:00.000Z",
+      "fim_utc": "2025-09-21T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.544204711914062,
+      "sha256": "229e1676d5cb6dd9f30a5c3c67026e85c0a49d0e824c1bb0dab3fce6f43c8549",
+      "bytes": 23639312,
+      "baixado_em_utc": "2026-11-14T11:15:23.462496+00:00"
+    },
+    "VJ113A2.A2025281.h18v04.002.2025297085604.h5": {
+      "nome": "VJ113A2.A2025281.h18v04.002.2025297085604.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025281.h18v04.002.2025297085604/VJ113A2.A2025281.h18v04.002.2025297085604.h5",
+      "inicio_utc": "2025-10-08T00:00:00.000Z",
+      "fim_utc": "2025-10-23T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.904346466064453,
+      "sha256": "c36087d8426237b9d19863c02e7aeebb15a3692bf0473ed1fe1e39255fa4d71a",
+      "bytes": 24016948,
+      "baixado_em_utc": "2026-11-14T11:15:26.062292+00:00"
+    },
+    "VJ113A2.A2025305.h18v04.002.2025321100316.h5": {
+      "nome": "VJ113A2.A2025305.h18v04.002.2025321100316.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025305.h18v04.002.2025321100316/VJ113A2.A2025305.h18v04.002.2025321100316.h5",
+      "inicio_utc": "2025-11-01T00:00:00.000Z",
+      "fim_utc": "2025-11-16T23:59:59.000Z",
+      "tamanho_cmr_mb": 22.734695434570312,
+      "sha256": "f4fd051c622a8d0ec99757ab9fea14be9ca629f953eb6461a608da76d4637b71",
+      "bytes": 23839056,
+      "baixado_em_utc": "2026-11-14T11:15:28.907105+00:00"
+    },
+    "VJ113A2.A2025337.h18v04.002.2025353101400.h5": {
+      "nome": "VJ113A2.A2025337.h18v04.002.2025353101400.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025337.h18v04.002.2025353101400/VJ113A2.A2025337.h18v04.002.2025353101400.h5",
+      "inicio_utc": "2025-12-03T00:00:00.000Z",
+      "fim_utc": "2025-12-18T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.01919460296631,
+      "sha256": "0b6ac9aad632372ae1a62070f6f68bccbad515e099761cc428c5f8f34ff6e520",
+      "bytes": 24137375,
+      "baixado_em_utc": "2026-11-14T11:15:31.625555+00:00"
+    },
+    "VJ113A2.A2025185.h18v04.002.2025213202926.h5": {
+      "nome": "VJ113A2.A2025185.h18v04.002.2025213202926.h5",
+      "produto": "VJ113A2",
+      "url": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/VJ113A2.002/VJ113A2.A2025185.h18v04.002.2025213202926/VJ113A2.A2025185.h18v04.002.2025213202926.h5",
+      "inicio_utc": "2025-07-04T00:00:00.000Z",
+      "fim_utc": "2025-07-19T23:59:59.000Z",
+      "tamanho_cmr_mb": 23.32079792022705,
+      "sha256": "39d84c86fe4639d534003f0ef5c334f25f07df7852ddb0318e23ce28e9672e59",
+      "bytes": 24453629,
+      "baixado_em_utc": "2026-11-14T11:15:32.356832+00:00"
+    }
+  },
+  "consultas": [
+    {
+      "inicio": "2024-12-01",
+      "fim": "2025-12-31",
+      "selecionados": 20,
+      "baixados_ou_existentes": 20,
+      "falhas": [],
+      "amostra": false,
+      "finalizado_em_utc": "2026-11-14T11:15:32.362837+00:00"
+    }
+  ]
+}

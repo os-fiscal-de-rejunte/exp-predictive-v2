@@ -1,0 +1,649 @@
+{
+  "criado_em_utc": "2026-11-14T10:59:37.457572+00:00",
+  "sha256_dados": "05e67706a939ee9ccf2ef978914e9db1bdf28d3357a02e702379895934837726",
+  "sha256_cobertura_solo": "87afa7fb372dff85723fa609a322133d643530937e40c7f5fe9587a973ebb2ef",
+  "status": "pesquisa_retrospectiva_nao_operacional",
+  "modos": {
+    "com_geografia": {
+      "modelo": "xgboost",
+      "colunas": [
+        "latitude",
+        "longitude",
+        "dia_seno",
+        "dia_cosseno",
+        "clima_T2M",
+        "clima_RH2M",
+        "clima_PRECTOTCORR",
+        "clima_WS10M",
+        "clima_GWETROOT",
+        "mascara_foco_2d",
+        "mascara_foco_3d",
+        "mascara_focos_7d",
+        "mascara_conhecidos_7d",
+        "mascara_focos_14d",
+        "mascara_conhecidos_14d",
+        "viirs_registros_7d",
+        "viirs_frp_7d",
+        "modis_registros_7d",
+        "modis_frp_7d",
+        "vegetacao_ndvi",
+        "vegetacao_evi",
+        "vegetacao_fracao_qualidade",
+        "vegetacao_idade_dias",
+        "altitude_media_m",
+        "altitude_desvio_m",
+        "solo_floresta_frac",
+        "solo_savana_campo_frac",
+        "solo_cultivo_frac",
+        "solo_qualidade_frac"
+      ],
+      "selecao": {
+        "logistica": {
+          "brier_medio": 0.07236912459466299,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08565602995708531,
+              "average_precision": 0.2087847632486878
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11434910370011622,
+              "average_precision": 0.36239451070747086
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017102240126787464,
+              "average_precision": 0.04441360319932477
+            }
+          ]
+        },
+        "xgboost": {
+          "brier_medio": 0.07227377608855594,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08630165303091311,
+              "average_precision": 0.16830993034294783
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11335749424022327,
+              "average_precision": 0.37042340511761496
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017162180994531425,
+              "average_precision": 0.05622882483085524
+            }
+          ]
+        }
+      },
+      "calibrado": true,
+      "limiar": 0.19971962109314365,
+      "criterio_limiar": "maior revocacao com precisao minima de 30% na decisao",
+      "teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7418125,
+          "acuracia_balanceada": 0.6692942689045058,
+          "precisao": 0.33812303547373146,
+          "revocacao": 0.5600595016734846,
+          "f1": 0.4216715665686686,
+          "average_precision": 0.3798813948662407,
+          "roc_auc": 0.7460444459419323,
+          "brier": 0.1230816794355225,
+          "log_loss": 0.3963328451370002,
+          "matriz_confusao": [
+            [
+              10363,
+              2948
+            ],
+            [
+              1183,
+              1506
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7066581771875569,
+          "acuracia_balanceada": 0.6607978870126092,
+          "precisao": 0.35123851934316724,
+          "revocacao": 0.5853432282003711,
+          "f1": 0.43903287528265783,
+          "average_precision": 0.39531403211373717,
+          "roc_auc": 0.7315618989680672,
+          "brier": 0.14057739201945602,
+          "log_loss": 0.44166069256504764,
+          "matriz_confusao": [
+            [
+              6507,
+              2331
+            ],
+            [
+              894,
+              1262
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8190171793847383,
+          "acuracia_balanceada": 0.6599236863750776,
+          "precisao": 0.28339140534262486,
+          "revocacao": 0.45778611632270166,
+          "f1": 0.3500717360114778,
+          "average_precision": 0.3180478666985182,
+          "roc_auc": 0.7514220197147026,
+          "brier": 0.08465821476357582,
+          "log_loss": 0.2967854311090432,
+          "matriz_confusao": [
+            [
+              3856,
+              617
+            ],
+            [
+              289,
+              244
+            ]
+          ]
+        }
+      },
+      "por_cobertura": {
+        "floresta": {
+          "linhas": 390,
+          "positivos": 32,
+          "prevalencia": 0.08205128205128205,
+          "acuracia": 0.8282051282051283,
+          "acuracia_balanceada": 0.6218575418994414,
+          "precisao": 0.2033898305084746,
+          "revocacao": 0.375,
+          "f1": 0.26373626373626374,
+          "average_precision": 0.1932084897283738,
+          "roc_auc": 0.6729224860335196,
+          "brier": 0.07448365925645281,
+          "log_loss": 0.2758247338016594,
+          "matriz_confusao": [
+            [
+              311,
+              47
+            ],
+            [
+              20,
+              12
+            ]
+          ],
+          "status": "positivos_insuficientes"
+        },
+        "savana_campo": {
+          "linhas": 14692,
+          "positivos": 2591,
+          "prevalencia": 0.17635447862782466,
+          "acuracia": 0.7296487884563028,
+          "acuracia_balanceada": 0.6669356727410498,
+          "precisao": 0.3407151095732411,
+          "revocacao": 0.5700501736781166,
+          "f1": 0.4265088073924343,
+          "average_precision": 0.38619405752567015,
+          "roc_auc": 0.7408420909678544,
+          "brier": 0.12817941008998956,
+          "log_loss": 0.4100256238424067,
+          "matriz_confusao": [
+            [
+              9243,
+              2858
+            ],
+            [
+              1114,
+              1477
+            ]
+          ],
+          "status": "exploratorio"
+        },
+        "cultivo_ou_mosaico": {
+          "linhas": 918,
+          "positivos": 66,
+          "prevalencia": 0.0718954248366013,
+          "acuracia": 0.8997821350762527,
+          "acuracia_balanceada": 0.6035531370038412,
+          "precisao": 0.2833333333333333,
+          "revocacao": 0.25757575757575757,
+          "f1": 0.2698412698412698,
+          "average_precision": 0.20891899973101785,
+          "roc_auc": 0.7646891449708351,
+          "brier": 0.06214199435317739,
+          "log_loss": 0.22838497877638023,
+          "matriz_confusao": [
+            [
+              809,
+              43
+            ],
+            [
+              49,
+              17
+            ]
+          ],
+          "status": "exploratorio"
+        }
+      },
+      "referencia_cv_brier": 0.07233472809400236,
+      "referencia_teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7411875,
+          "acuracia_balanceada": 0.6641704857495733,
+          "precisao": 0.335,
+          "revocacao": 0.5481591669765712,
+          "f1": 0.4158555508534349,
+          "average_precision": 0.38110362976323753,
+          "roc_auc": 0.7438769719868359,
+          "brier": 0.12315294592741459,
+          "log_loss": 0.39699242262282575,
+          "matriz_confusao": [
+            [
+              10385,
+              2926
+            ],
+            [
+              1215,
+              1474
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.702746952883391,
+          "acuracia_balanceada": 0.6539817834187924,
+          "precisao": 0.3449525934188511,
+          "revocacao": 0.5737476808905381,
+          "f1": 0.43086032741205155,
+          "average_precision": 0.39602976463143197,
+          "roc_auc": 0.7278767768293517,
+          "brier": 0.14077645485718304,
+          "log_loss": 0.4430408122954285,
+          "matriz_confusao": [
+            [
+              6489,
+              2349
+            ],
+            [
+              919,
+              1237
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8256092688773472,
+          "acuracia_balanceada": 0.6578283543244038,
+          "precisao": 0.29115479115479115,
+          "revocacao": 0.4446529080675422,
+          "f1": 0.3518930957683742,
+          "average_precision": 0.3237574790504585,
+          "roc_auc": 0.7527535444058975,
+          "brier": 0.08444881944441934,
+          "log_loss": 0.29586257922278675,
+          "matriz_confusao": [
+            [
+              3896,
+              577
+            ],
+            [
+              296,
+              237
+            ]
+          ]
+        }
+      }
+    },
+    "firms_sem_mascara": {
+      "modelo": "logistica",
+      "colunas": [
+        "latitude",
+        "longitude",
+        "dia_seno",
+        "dia_cosseno",
+        "clima_T2M",
+        "clima_RH2M",
+        "clima_PRECTOTCORR",
+        "clima_WS10M",
+        "clima_GWETROOT",
+        "viirs_registros_7d",
+        "viirs_frp_7d",
+        "modis_registros_7d",
+        "modis_frp_7d",
+        "vegetacao_ndvi",
+        "vegetacao_evi",
+        "vegetacao_fracao_qualidade",
+        "vegetacao_idade_dias",
+        "altitude_media_m",
+        "altitude_desvio_m",
+        "solo_floresta_frac",
+        "solo_savana_campo_frac",
+        "solo_cultivo_frac",
+        "solo_qualidade_frac"
+      ],
+      "selecao": {
+        "logistica": {
+          "brier_medio": 0.07282586133979131,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08431283850599249,
+              "average_precision": 0.22538346880916454
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11704755780831741,
+              "average_precision": 0.34340915970911196
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017117187705064003,
+              "average_precision": 0.0517863936743021
+            }
+          ]
+        },
+        "xgboost": {
+          "brier_medio": 0.07285326506947358,
+          "dobras": [
+            {
+              "inicio": "2024-05-10",
+              "fim": "2024-08-30",
+              "linhas": 17806,
+              "positivos": 1692,
+              "brier": 0.08650263872360546,
+              "average_precision": 0.16592127205619084
+            },
+            {
+              "inicio": "2024-08-31",
+              "fim": "2024-12-28",
+              "linhas": 12371,
+              "positivos": 1880,
+              "brier": 0.11493455499521668,
+              "average_precision": 0.3556773612454837
+            },
+            {
+              "inicio": "2024-12-29",
+              "fim": "2025-04-29",
+              "linhas": 8222,
+              "positivos": 144,
+              "brier": 0.017122601489598602,
+              "average_precision": 0.059778623631138506
+            }
+          ]
+        }
+      },
+      "calibrado": true,
+      "limiar": 0.2877613012972961,
+      "criterio_limiar": "maior revocacao com precisao minima de 30% na decisao",
+      "teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.801375,
+          "acuracia_balanceada": 0.6199217177057179,
+          "precisao": 0.3960900977475563,
+          "revocacao": 0.34659724804760134,
+          "f1": 0.3696945656485522,
+          "average_precision": 0.3632048210635893,
+          "roc_auc": 0.7322283884636555,
+          "brier": 0.12600882679367553,
+          "log_loss": 0.40675234948284694,
+          "matriz_confusao": [
+            [
+              11890,
+              1421
+            ],
+            [
+              1757,
+              932
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7601418955794069,
+          "acuracia_balanceada": 0.6186683955814011,
+          "precisao": 0.3878787878787879,
+          "revocacao": 0.38589981447124305,
+          "f1": 0.3868867705184841,
+          "average_precision": 0.3710489122654451,
+          "roc_auc": 0.715576470049848,
+          "brier": 0.14425587833019451,
+          "log_loss": 0.45265445368237905,
+          "matriz_confusao": [
+            [
+              7525,
+              1313
+            ],
+            [
+              1324,
+              832
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8919296843787455,
+          "acuracia_balanceada": 0.5817361957863504,
+          "precisao": 0.4807692307692308,
+          "revocacao": 0.18761726078799248,
+          "f1": 0.2699055330634278,
+          "average_precision": 0.30832774689798964,
+          "roc_auc": 0.7123151667981623,
+          "brier": 0.08593529810959849,
+          "log_loss": 0.30594377306062265,
+          "matriz_confusao": [
+            [
+              4365,
+              108
+            ],
+            [
+              433,
+              100
+            ]
+          ]
+        }
+      },
+      "por_cobertura": {
+        "floresta": {
+          "linhas": 390,
+          "positivos": 32,
+          "prevalencia": 0.08205128205128205,
+          "acuracia": 0.8205128205128205,
+          "acuracia_balanceada": 0.6034392458100559,
+          "precisao": 0.18333333333333332,
+          "revocacao": 0.34375,
+          "f1": 0.2391304347826087,
+          "average_precision": 0.17211195489325787,
+          "roc_auc": 0.6131284916201117,
+          "brier": 0.0856870454921707,
+          "log_loss": 0.31538420150741164,
+          "matriz_confusao": [
+            [
+              309,
+              49
+            ],
+            [
+              21,
+              11
+            ]
+          ],
+          "status": "positivos_insuficientes"
+        },
+        "savana_campo": {
+          "linhas": 14692,
+          "positivos": 2591,
+          "prevalencia": 0.17635447862782466,
+          "acuracia": 0.7941736999727743,
+          "acuracia_balanceada": 0.6213298459820886,
+          "precisao": 0.40458351696782724,
+          "revocacao": 0.3543033577769201,
+          "f1": 0.37777777777777777,
+          "average_precision": 0.37275443001044717,
+          "roc_auc": 0.7295544247087209,
+          "brier": 0.1309170782617393,
+          "log_loss": 0.419952111187647,
+          "matriz_confusao": [
+            [
+              10750,
+              1351
+            ],
+            [
+              1673,
+              918
+            ]
+          ],
+          "status": "exploratorio"
+        },
+        "cultivo_ou_mosaico": {
+          "linhas": 918,
+          "positivos": 66,
+          "prevalencia": 0.0718954248366013,
+          "acuracia": 0.9084967320261438,
+          "acuracia_balanceada": 0.510403329065301,
+          "precisao": 0.125,
+          "revocacao": 0.045454545454545456,
+          "f1": 0.06666666666666667,
+          "average_precision": 0.16256074210818017,
+          "roc_auc": 0.7610079669938825,
+          "brier": 0.0645855851148021,
+          "log_loss": 0.23431518035811652,
+          "matriz_confusao": [
+            [
+              831,
+              21
+            ],
+            [
+              63,
+              3
+            ]
+          ],
+          "status": "exploratorio"
+        }
+      },
+      "referencia_cv_brier": 0.07289858699247291,
+      "referencia_teste": {
+        "geral": {
+          "linhas": 16000,
+          "positivos": 2689,
+          "prevalencia": 0.1680625,
+          "acuracia": 0.7799375,
+          "acuracia_balanceada": 0.6387909165852058,
+          "precisao": 0.36683738796414855,
+          "revocacao": 0.42618073633320935,
+          "f1": 0.3942886633407879,
+          "average_precision": 0.35937500329799216,
+          "roc_auc": 0.7399524642601198,
+          "brier": 0.12501481528513494,
+          "log_loss": 0.40089607508194774,
+          "matriz_confusao": [
+            [
+              11333,
+              1978
+            ],
+            [
+              1543,
+              1146
+            ]
+          ]
+        },
+        "temporal": {
+          "linhas": 10994,
+          "positivos": 2156,
+          "prevalencia": 0.1961069674367837,
+          "acuracia": 0.7413134436965617,
+          "acuracia_balanceada": 0.6350115309964015,
+          "precisao": 0.3712574850299401,
+          "revocacao": 0.4601113172541744,
+          "f1": 0.4109362054681027,
+          "average_precision": 0.3790936354184559,
+          "roc_auc": 0.7245144354723929,
+          "brier": 0.14242837753356122,
+          "log_loss": 0.4458616506685265,
+          "matriz_confusao": [
+            [
+              7158,
+              1680
+            ],
+            [
+              1164,
+              992
+            ]
+          ]
+        },
+        "espacial": {
+          "linhas": 5006,
+          "positivos": 533,
+          "prevalencia": 0.10647223332001599,
+          "acuracia": 0.8647622852576907,
+          "acuracia_balanceada": 0.6111543138338054,
+          "precisao": 0.3407079646017699,
+          "revocacao": 0.28893058161350843,
+          "f1": 0.31269035532994927,
+          "average_precision": 0.2745844655096302,
+          "roc_auc": 0.7383175433673544,
+          "brier": 0.08677176627211086,
+          "log_loss": 0.3021442696486983,
+          "matriz_confusao": [
+            [
+              4175,
+              298
+            ],
+            [
+              379,
+              154
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "limites": "Cobertura IGBP agregada e datada conservadoramente. As classes contem erros; o teste ja foi explorado e cobre uma unica regiao."
+}

@@ -1,0 +1,9 @@
+{
+  "compostos": 13,
+  "linhas_vegetacao": 676,
+  "ndvi_valido": 489,
+  "celulas_relevo": 52,
+  "sha256_vegetacao": "b05f2b0132de365dfe72067bdca805b8e2a071e378ab0e870ced94ea770d3357",
+  "sha256_relevo": "1666a5d4ea74f22c35486e1190d8a57ffda4c87ec5160fa3a237d37d3e07af08",
+  "sha256_manifesto": "89246ca8341b47f0fc7929fd08898dde1d7ba1ea216e646bd5474974912e85cc"
+}

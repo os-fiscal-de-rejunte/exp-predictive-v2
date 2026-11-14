@@ -1,0 +1,2405 @@
+{
+  "inicio": "2023-12-18",
+  "fim": "2025-12-31",
+  "area": "-47,-12,-43,-8",
+  "fontes": [
+    "VIIRS_NOAA20_SP",
+    "MODIS_SP"
+  ],
+  "consultas": 298,
+  "linhas": 169777,
+  "duplicatas_exatas": 0,
+  "por_fonte": {
+    "VIIRS_NOAA20_SP": 133439,
+    "MODIS_SP": 36338
+  },
+  "sha256_arquivo": "7743ab893776ae13239e8acf5226169b5b5debc22ba702ba1f45b93edfda1e23",
+  "processado_em_utc": "2026-11-14T04:58:49.706275+00:00",
+  "respostas": [
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2023-12-18",
+      "dias": 5,
+      "linhas": 81,
+      "sha256_resposta": "5b2af4a2610622bb6e257738af00783b38670c30d5b15efe91a526bc667745b9",
+      "cache_gravado_utc": "2026-11-14T04:31:26.762223+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2023-12-23",
+      "dias": 5,
+      "linhas": 180,
+      "sha256_resposta": "a1b2524baa05aa3761862aaacb426943f38f4afb4c2c28307526fc162ebc0b98",
+      "cache_gravado_utc": "2026-11-14T04:31:27.219081+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2023-12-28",
+      "dias": 5,
+      "linhas": 123,
+      "sha256_resposta": "2669dc1ff3dc6f3bf29f01dacbe4eb3de7890765c0c7126d0a26be8a31ac31b5",
+      "cache_gravado_utc": "2026-11-14T04:31:27.392298+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-02",
+      "dias": 5,
+      "linhas": 35,
+      "sha256_resposta": "e8fa165a92ced6f0194f443441ea6cea50798345cfd8eca8cd90eba49c50eb80",
+      "cache_gravado_utc": "2026-11-14T04:31:27.743392+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-12",
+      "dias": 5,
+      "linhas": 94,
+      "sha256_resposta": "7a0da2cc2c1fa597a534cf9c1ba6c05369eccc77212a8a0b29c91a03ef5e6e25",
+      "cache_gravado_utc": "2026-11-14T04:31:28.597314+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-07",
+      "dias": 5,
+      "linhas": 120,
+      "sha256_resposta": "008a938c2e8b9af8796fb90f57d511910e480a65498192ce38db70456990893c",
+      "cache_gravado_utc": "2026-11-14T04:31:28.183899+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-17",
+      "dias": 5,
+      "linhas": 159,
+      "sha256_resposta": "69e36278857c420afa7f50a0bc9fb032af56acab20b2b59748e52276663da989",
+      "cache_gravado_utc": "2026-11-14T04:31:28.878776+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-22",
+      "dias": 5,
+      "linhas": 16,
+      "sha256_resposta": "330dc8b4f1e41005219b5cde3f298f1bb7d5dd3e0c7c0c8be9277e87244ddad3",
+      "cache_gravado_utc": "2026-11-14T04:31:29.311559+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-01-27",
+      "dias": 5,
+      "linhas": 5,
+      "sha256_resposta": "6658e5c6a4b490e698a1f9424e5425bff3e7e8c965c7d0e3ebdadd2337630103",
+      "cache_gravado_utc": "2026-11-14T04:31:29.573085+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-01",
+      "dias": 5,
+      "linhas": 15,
+      "sha256_resposta": "24fb74e8bb799bc6de7da107e86f4fc7a6afd7f2bdb4da37ec755d65f8689eb2",
+      "cache_gravado_utc": "2026-11-14T04:31:29.989723+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-11",
+      "dias": 5,
+      "linhas": 89,
+      "sha256_resposta": "f2cbd5f7c523a6fb8bebe8db1ca14e7a8d706a6e3e8d1148dd7d4c98af94eac0",
+      "cache_gravado_utc": "2026-11-14T04:31:30.651627+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-06",
+      "dias": 5,
+      "linhas": 68,
+      "sha256_resposta": "de317c5c56088dbfe0b52fe7965f308e6f7187b5c99be7bbf84999ef8bf21ab3",
+      "cache_gravado_utc": "2026-11-14T04:31:30.283633+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-16",
+      "dias": 5,
+      "linhas": 93,
+      "sha256_resposta": "e2003eaac754f5df0e3c96a8734a8c986e49bd82d015271b332054ea978d460e",
+      "cache_gravado_utc": "2026-11-14T04:31:30.997605+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-26",
+      "dias": 5,
+      "linhas": 144,
+      "sha256_resposta": "5ad9d0c96111104143f6dbdee3f420c969089e94071ee05a900fbc8ae51d769e",
+      "cache_gravado_utc": "2026-11-14T04:31:31.890077+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-02-21",
+      "dias": 5,
+      "linhas": 3,
+      "sha256_resposta": "6809075b1fb1dd7a86948f4215222b0e9cd00c4cafd975e6957a7ca4182ead54",
+      "cache_gravado_utc": "2026-11-14T04:31:31.366013+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-02",
+      "dias": 5,
+      "linhas": 30,
+      "sha256_resposta": "b078e1fe0ef6e759cca3f12550e1cd6a0321e5cbab87c3c047155ff6d39f2dd4",
+      "cache_gravado_utc": "2026-11-14T04:31:31.995999+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-07",
+      "dias": 5,
+      "linhas": 151,
+      "sha256_resposta": "b73176b8f323300d2e4feb835417e6ba808e2681db38a54ac1d3793e11bc20b4",
+      "cache_gravado_utc": "2026-11-14T04:31:32.907886+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-12",
+      "dias": 5,
+      "linhas": 153,
+      "sha256_resposta": "05892fb8cadad277018ab237e66d321279010387ef27a732c20186ff56fa4bda",
+      "cache_gravado_utc": "2026-11-14T04:31:32.868037+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-17",
+      "dias": 5,
+      "linhas": 178,
+      "sha256_resposta": "921a2dc1b788c494bc101aab56bddee1141d05c0bf6c90ae6a8df98bd7945411",
+      "cache_gravado_utc": "2026-11-14T04:31:33.313521+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-22",
+      "dias": 5,
+      "linhas": 36,
+      "sha256_resposta": "f0567963495454ce0f6d7fcfd40f5635b0fceb3f36fea6e9aed7081fa9541d02",
+      "cache_gravado_utc": "2026-11-14T04:31:33.871815+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-03-27",
+      "dias": 5,
+      "linhas": 35,
+      "sha256_resposta": "fc086be1c8f27020d16f125d9f81e42b02e234ef6cadb70104fe184e45d03866",
+      "cache_gravado_utc": "2026-11-14T04:31:34.320911+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-01",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "352ad7688556046c090ef9ff7d9c3309cd370b81da6f8b204945303bab47d331",
+      "cache_gravado_utc": "2026-11-14T04:31:34.542113+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-06",
+      "dias": 5,
+      "linhas": 10,
+      "sha256_resposta": "a30305833549fa315a244d344787cb7893249478c3d43193c542a7feccd59fe3",
+      "cache_gravado_utc": "2026-11-14T04:31:34.883688+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-11",
+      "dias": 5,
+      "linhas": 23,
+      "sha256_resposta": "8abb6a7201be48cad928c4a4e4189c9b180c8514f8c47c638f942bf2c38faac8",
+      "cache_gravado_utc": "2026-11-14T04:31:35.474488+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-16",
+      "dias": 5,
+      "linhas": 105,
+      "sha256_resposta": "bcfd9c4a4946345592990af07323ecace4e83f8dca7f41c8fad48d79c96286bf",
+      "cache_gravado_utc": "2026-11-14T04:31:40.616256+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-21",
+      "dias": 5,
+      "linhas": 99,
+      "sha256_resposta": "628c1f18efc247f3e62c6f99496e39ea599af0e44ffa0b11d42ed258b3d71453",
+      "cache_gravado_utc": "2026-11-14T04:31:36.066679+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-04-26",
+      "dias": 5,
+      "linhas": 113,
+      "sha256_resposta": "7f0bb10146d40c0b922a17a6acfa3047af399636d35d06a799dc592ebf2d7fc0",
+      "cache_gravado_utc": "2026-11-14T04:31:36.456894+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-01",
+      "dias": 5,
+      "linhas": 275,
+      "sha256_resposta": "28612d2424a6eace7b3d7f4bf8a83c9f92917d9c2c4d83e74c0212fe438f7f12",
+      "cache_gravado_utc": "2026-11-14T04:31:37.216213+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-06",
+      "dias": 5,
+      "linhas": 226,
+      "sha256_resposta": "2dca2de5068012fff30688bf96d1becf17b2bab339b4e7915de81ac3fe684055",
+      "cache_gravado_utc": "2026-11-14T04:31:37.626244+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-11",
+      "dias": 5,
+      "linhas": 327,
+      "sha256_resposta": "37f20a14e3f44c52cd0b7217543ddfbc96087f6fd387973eaf34d5ec0ec97bb8",
+      "cache_gravado_utc": "2026-11-14T04:31:38.424767+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-16",
+      "dias": 5,
+      "linhas": 341,
+      "sha256_resposta": "c09ab00d208822c28ca2d09aa077e6b3d3ad7c411086463d0a2d7cba6e6a915f",
+      "cache_gravado_utc": "2026-11-14T04:31:43.841744+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-21",
+      "dias": 5,
+      "linhas": 488,
+      "sha256_resposta": "f07d34aea788b8752c2526574ef35ea4bc9d39ed50465068cd4b8efd0e682b88",
+      "cache_gravado_utc": "2026-11-14T04:31:39.633828+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-26",
+      "dias": 5,
+      "linhas": 474,
+      "sha256_resposta": "303a00c570df8b9e2e42250ba566708357240107144d8bb9edd8012717de4927",
+      "cache_gravado_utc": "2026-11-14T04:31:40.803714+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-05-31",
+      "dias": 5,
+      "linhas": 674,
+      "sha256_resposta": "eb8cd4eeb1ac11bade4118d59ca9ea923ca87978d856804505e1fcb28674a6f9",
+      "cache_gravado_utc": "2026-11-14T04:31:41.945038+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-05",
+      "dias": 5,
+      "linhas": 709,
+      "sha256_resposta": "a8c4c7e95079b59ae6fa67e8fdef893d40f2c51b70368498ec9dedbdbccf3298",
+      "cache_gravado_utc": "2026-11-14T04:31:42.337628+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-10",
+      "dias": 5,
+      "linhas": 672,
+      "sha256_resposta": "757d4421a20f59757238ea3f8aef8781e299420ae5e81e808c7ee218c3e85a25",
+      "cache_gravado_utc": "2026-11-14T04:31:43.499844+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-15",
+      "dias": 5,
+      "linhas": 683,
+      "sha256_resposta": "c70491bf3528f10ece426c53652b8ae911146653f9e540ad5b9e5cf5df5a82d5",
+      "cache_gravado_utc": "2026-11-14T04:31:43.683181+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-20",
+      "dias": 5,
+      "linhas": 762,
+      "sha256_resposta": "db38c4d066707c2e6b23ff4ae80eab12854b4b58956468e4026df7dbd5efaf37",
+      "cache_gravado_utc": "2026-11-14T04:31:44.943802+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-30",
+      "dias": 5,
+      "linhas": 585,
+      "sha256_resposta": "2d2d8bac43d762b765dcec1a8a19d95bacda5147e13a3deb405b274f76487a6f",
+      "cache_gravado_utc": "2026-11-14T04:31:45.677376+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-06-25",
+      "dias": 5,
+      "linhas": 673,
+      "sha256_resposta": "7b5fad6e4c1a55d58e1dc4744637204495cd6390ab17d9fbbceeb722918ca96b",
+      "cache_gravado_utc": "2026-11-14T04:31:45.314578+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-05",
+      "dias": 5,
+      "linhas": 379,
+      "sha256_resposta": "09d062e32c6193bf8c61110e8d62c494f64ea560738aee919fe2f99397408989",
+      "cache_gravado_utc": "2026-11-14T04:31:46.273843+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-10",
+      "dias": 5,
+      "linhas": 543,
+      "sha256_resposta": "4a4fe1182a84e820e81d6869384f7f8f7370472de3595198351bb9c71f5be3b8",
+      "cache_gravado_utc": "2026-11-14T04:31:46.733497+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-15",
+      "dias": 5,
+      "linhas": 901,
+      "sha256_resposta": "0cc7de4b478ec10040073ed33fca4b62f14cb6492485ae8475fc8ee2bf8bba8c",
+      "cache_gravado_utc": "2026-11-14T04:31:47.078314+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-20",
+      "dias": 5,
+      "linhas": 772,
+      "sha256_resposta": "507b7546b16be9be617f1e7298439292b2f2161592fb8fb626743f8c88279b6c",
+      "cache_gravado_utc": "2026-11-14T04:31:48.052930+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-25",
+      "dias": 5,
+      "linhas": 982,
+      "sha256_resposta": "270dbf51cb5df690d21ab2a335ee4d838a1c448921fb52d2c9dbdc7d3c10d993",
+      "cache_gravado_utc": "2026-11-14T04:31:48.178745+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-07-30",
+      "dias": 5,
+      "linhas": 911,
+      "sha256_resposta": "9692137e5a6c94650b9ce205250999717b33f8c1428471bf8a3fefdd51207167",
+      "cache_gravado_utc": "2026-11-14T04:31:48.561203+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-04",
+      "dias": 5,
+      "linhas": 1033,
+      "sha256_resposta": "cb4027c52a49390ab30341235b5008137373c1221f79ad879ce8a9c1ff6a322f",
+      "cache_gravado_utc": "2026-11-14T04:31:49.550566+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-09",
+      "dias": 5,
+      "linhas": 635,
+      "sha256_resposta": "baa8da370c148541765d95f5e00576b7dc9e5a481ec07efc92dd3468669e71f6",
+      "cache_gravado_utc": "2026-11-14T04:31:49.852883+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-14",
+      "dias": 5,
+      "linhas": 1498,
+      "sha256_resposta": "dd4ce6727533806cc3bbdf0f1ea41f06c944b025fe6d135dc0d841b3d0cea11d",
+      "cache_gravado_utc": "2026-11-14T04:31:50.391760+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-19",
+      "dias": 5,
+      "linhas": 1285,
+      "sha256_resposta": "530fede7117898e0545e3de9e39bf4e8419effa126833c04a76ee251f626f3f6",
+      "cache_gravado_utc": "2026-11-14T04:31:51.336334+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-24",
+      "dias": 5,
+      "linhas": 2965,
+      "sha256_resposta": "2ccaf4a5f7a53f66e6692017a79670cf8144d179a578319c2a0a7c2e2fa6305b",
+      "cache_gravado_utc": "2026-11-14T04:31:51.711052+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-08-29",
+      "dias": 5,
+      "linhas": 2790,
+      "sha256_resposta": "fd715abb4e49f18739be9e7d55d33f9c054fdf5158ff9eebb897cc547f0f2329",
+      "cache_gravado_utc": "2026-11-14T04:31:52.496657+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-03",
+      "dias": 5,
+      "linhas": 3946,
+      "sha256_resposta": "bf1ecb9729849d47e25b44bdf4943feb3a66d54337bab924bc7d914ff71304c2",
+      "cache_gravado_utc": "2026-11-14T04:31:53.192563+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-08",
+      "dias": 5,
+      "linhas": 4088,
+      "sha256_resposta": "a33b8abb185ac8b72d290c2d82538adb71d49ff030ec1956283f7d9948b0968d",
+      "cache_gravado_utc": "2026-11-14T04:31:53.554074+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-13",
+      "dias": 5,
+      "linhas": 3841,
+      "sha256_resposta": "f0e0a7d9773782cf1e5c44d1f298478459f335f611589b3a1ca50f397e7930b2",
+      "cache_gravado_utc": "2026-11-14T04:31:54.295947+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-18",
+      "dias": 5,
+      "linhas": 4049,
+      "sha256_resposta": "be8c7478435dce6776906a4f0179538fa8c24f8e1506d51d1bea6824f9a11627",
+      "cache_gravado_utc": "2026-11-14T04:31:55.052243+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-23",
+      "dias": 5,
+      "linhas": 2977,
+      "sha256_resposta": "a7907fb94fc27188f8c326a8892e149dfdfcbfceeda9c678fea7847ff883d6bd",
+      "cache_gravado_utc": "2026-11-14T04:31:55.323860+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-09-28",
+      "dias": 5,
+      "linhas": 4113,
+      "sha256_resposta": "6098dc3f15f4f37e51003516af5d6f716220ddc7110c81b5233eb1b6970aea37",
+      "cache_gravado_utc": "2026-11-14T04:31:56.133502+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-03",
+      "dias": 5,
+      "linhas": 2107,
+      "sha256_resposta": "99e237424e11c20e09a1492539cb14f6ae8069ea857bb6b93fe7ff6de282686b",
+      "cache_gravado_utc": "2026-11-14T04:31:56.606688+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-08",
+      "dias": 5,
+      "linhas": 1753,
+      "sha256_resposta": "dd38241309cee31f28e90b315ca4e12688a957451f7000351d7ec8fc3997e0f4",
+      "cache_gravado_utc": "2026-11-14T04:31:57.109219+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-13",
+      "dias": 5,
+      "linhas": 2015,
+      "sha256_resposta": "4d830481a5d40bf92067b8884b7145c7ab1e8c7c826c2a0ca8c2568c95c53dcd",
+      "cache_gravado_utc": "2026-11-14T04:31:57.768768+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-18",
+      "dias": 5,
+      "linhas": 245,
+      "sha256_resposta": "3537fe75bc438faea328587d49f6511b25be9e8262c939128c8ed2f7115159e1",
+      "cache_gravado_utc": "2026-11-14T04:31:57.833420+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-23",
+      "dias": 5,
+      "linhas": 1882,
+      "sha256_resposta": "d9e9e4b8d18ffd06cf073b341d51ed29ceea808df32c9579250a2b1d653cc83c",
+      "cache_gravado_utc": "2026-11-14T04:31:58.592615+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-10-28",
+      "dias": 5,
+      "linhas": 934,
+      "sha256_resposta": "ffdc04600d43aa75d8d8cba0561d4726cf0ebae41ff52f8cd19faeebaf62b955",
+      "cache_gravado_utc": "2026-11-14T04:31:59.093930+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-02",
+      "dias": 5,
+      "linhas": 717,
+      "sha256_resposta": "fccd9d1b03f16124c547adadd1c737dd12759e12bd3ac007d46be1f868dab93c",
+      "cache_gravado_utc": "2026-11-14T04:31:59.598094+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-12",
+      "dias": 5,
+      "linhas": 116,
+      "sha256_resposta": "27b540224c2947353b4e3544f2ec09318cfa486c89355a53f713081efd1307bb",
+      "cache_gravado_utc": "2026-11-14T04:32:00.153193+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-07",
+      "dias": 5,
+      "linhas": 366,
+      "sha256_resposta": "a97e6debccf0383282645581c2805a1d36770fc1ab7e3027ffc7aaf780ebca78",
+      "cache_gravado_utc": "2026-11-14T04:32:04.782094+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-17",
+      "dias": 5,
+      "linhas": 896,
+      "sha256_resposta": "f9151eff73782dceedbe05f565b3e37637241df87734afb1b6c78ed0a4cb2e96",
+      "cache_gravado_utc": "2026-11-14T04:32:05.908053+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-22",
+      "dias": 5,
+      "linhas": 86,
+      "sha256_resposta": "e048df68ae5898023a661906988924981b5db4090f1e66273238e184626860f2",
+      "cache_gravado_utc": "2026-11-14T04:32:01.140610+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-11-27",
+      "dias": 5,
+      "linhas": 371,
+      "sha256_resposta": "4ce7dc3617a9f832e7b91bc0ceabebb4b394df55fc785ebd564d58c1f3c49c56",
+      "cache_gravado_utc": "2026-11-14T04:32:02.282964+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-02",
+      "dias": 5,
+      "linhas": 139,
+      "sha256_resposta": "912343606d3dae87669f07191fab06c0acb0be348c83bad97acd06c7a81dbdc3",
+      "cache_gravado_utc": "2026-11-14T04:32:03.308322+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-07",
+      "dias": 5,
+      "linhas": 298,
+      "sha256_resposta": "18d7d59a39463cacf571bf5f1bdb53fe3f01fbbcb6375c93e529782fef08a6e5",
+      "cache_gravado_utc": "2026-11-14T04:32:04.476549+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-17",
+      "dias": 5,
+      "linhas": 71,
+      "sha256_resposta": "a781f433bf0c7ccc5677d91f0ac1cd51cec40eb64ca9c7578d87acb248ade07d",
+      "cache_gravado_utc": "2026-11-14T04:32:05.820228+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-12",
+      "dias": 5,
+      "linhas": 209,
+      "sha256_resposta": "5487c284b1865cdfb830b5aacfcdf86db82f218d70ca723ebb7ab58a5ab5274f",
+      "cache_gravado_utc": "2026-11-14T04:32:05.708682+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-22",
+      "dias": 5,
+      "linhas": 37,
+      "sha256_resposta": "3ee1094e93087e89200dd427375bc102fd140594aa2af88ecfb75d0e2eaf8433",
+      "cache_gravado_utc": "2026-11-14T04:32:06.720533+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2024-12-27",
+      "dias": 5,
+      "linhas": 106,
+      "sha256_resposta": "5bd8142b14d2439c819b14f46972dce6937107db896307b15ebf6f1ec505adfe",
+      "cache_gravado_utc": "2026-11-14T04:32:07.119012+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-01",
+      "dias": 5,
+      "linhas": 145,
+      "sha256_resposta": "6440ed170a40961da32bb89fb4be813e5ab31d80becd7ef902d4237c7a65198b",
+      "cache_gravado_utc": "2026-11-14T04:32:07.430526+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-06",
+      "dias": 5,
+      "linhas": 9,
+      "sha256_resposta": "7b5c6d109ced3e94d408af51f2a39c4394609d428c5f5022f6f386dda6f85ec6",
+      "cache_gravado_utc": "2026-11-14T04:32:07.804434+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-16",
+      "dias": 5,
+      "linhas": 23,
+      "sha256_resposta": "93238b1cc8b786ce98db9ed48026aa686c5dde3938df725a82772eb436ae7c40",
+      "cache_gravado_utc": "2026-11-14T04:32:08.524582+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-11",
+      "dias": 5,
+      "linhas": 0,
+      "sha256_resposta": "3505bc30679b4672e35048d886860827f74a34968ca654b30a18b6ab231990fd",
+      "cache_gravado_utc": "2026-11-14T04:32:08.156231+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-21",
+      "dias": 5,
+      "linhas": 69,
+      "sha256_resposta": "7f1132bfbd25742e18c790999ecff67ed75bf4f214c1fd88d59619288451947c",
+      "cache_gravado_utc": "2026-11-14T04:32:08.866791+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-31",
+      "dias": 5,
+      "linhas": 22,
+      "sha256_resposta": "2e5359fad9755262232fd3e3d9f3988e8f85e156b8f0c420b97caa2c88063440",
+      "cache_gravado_utc": "2026-11-14T04:32:09.519181+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-01-26",
+      "dias": 5,
+      "linhas": 93,
+      "sha256_resposta": "366b034e8f1ba83955bbaacfc1140241272b6fccd835fc5c1894562b74e31f94",
+      "cache_gravado_utc": "2026-11-14T04:32:09.196742+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-02-05",
+      "dias": 5,
+      "linhas": 144,
+      "sha256_resposta": "7acdf573906dca9e46edbe573dfb9bdf77a434fa77f0230c07eb3666c8d2e02c",
+      "cache_gravado_utc": "2026-11-14T04:32:09.836789+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-02-15",
+      "dias": 5,
+      "linhas": 83,
+      "sha256_resposta": "542e97a6d9e32bf2516f2f866868e6de792740835ba2560bf510073d4707b762",
+      "cache_gravado_utc": "2026-11-14T04:32:11.011051+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-02-20",
+      "dias": 5,
+      "linhas": 70,
+      "sha256_resposta": "a036d188414a83fd5969eb7dc82ae9b9cd66bc3a85b5635636cbfcb179add1bd",
+      "cache_gravado_utc": "2026-11-14T04:32:10.892288+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-02-10",
+      "dias": 5,
+      "linhas": 159,
+      "sha256_resposta": "5ce8bf6b7ba8067172299f2b37ac7a4819a377d8303bcacccb8a0d1968b00cb7",
+      "cache_gravado_utc": "2026-11-14T04:32:10.224092+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-02-25",
+      "dias": 5,
+      "linhas": 61,
+      "sha256_resposta": "186f570095529a85d77151a3aa99309506902e885db9322927d01ff8966b4a3c",
+      "cache_gravado_utc": "2026-11-14T04:32:11.217505+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-07",
+      "dias": 5,
+      "linhas": 65,
+      "sha256_resposta": "546563aaaf24173af995d7249120b345042f13b5f2b6470f603b38739833f4ef",
+      "cache_gravado_utc": "2026-11-14T04:32:12.314988+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-12",
+      "dias": 5,
+      "linhas": 148,
+      "sha256_resposta": "1c649b8cb08cf4fb662de83b6d3eeaa4eb3167b386b59189f2238c318c867560",
+      "cache_gravado_utc": "2026-11-14T04:32:12.597138+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-02",
+      "dias": 5,
+      "linhas": 79,
+      "sha256_resposta": "b3257dcb42a82acfe9f7bad25613c5bf83502a1b368819d682d61307a1e37470",
+      "cache_gravado_utc": "2026-11-14T04:32:11.900804+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-17",
+      "dias": 5,
+      "linhas": 29,
+      "sha256_resposta": "d6983406411cfc48dd64ce1085e24f720753b93e3e94ff2f0866d482ebaad474",
+      "cache_gravado_utc": "2026-11-14T04:32:12.920171+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-22",
+      "dias": 5,
+      "linhas": 56,
+      "sha256_resposta": "02ff8ccc1a0800aa97ae8eceb3aa242d2509c1752e1bb7bd68bb6db1929755b4",
+      "cache_gravado_utc": "2026-11-14T04:32:13.288810+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-03-27",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "555ed728fb199ec84f01ef318ebc0402fd5e3d0fbeec37f7d0e8c901ca36c4bc",
+      "cache_gravado_utc": "2026-11-14T04:32:13.636297+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-01",
+      "dias": 5,
+      "linhas": 76,
+      "sha256_resposta": "3567c264281e1dd44a2ecc36d012ff64b0a737f253327092daff1226c9a3762c",
+      "cache_gravado_utc": "2026-11-14T04:32:13.967628+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-11",
+      "dias": 5,
+      "linhas": 16,
+      "sha256_resposta": "5a3c615081d302a95c2320333941cf7274bce5eb28b6f3c18dd626793e9f389b",
+      "cache_gravado_utc": "2026-11-14T04:32:14.658745+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-16",
+      "dias": 5,
+      "linhas": 35,
+      "sha256_resposta": "9a54cc15bbd454421650a5d0c7c6b593c1ab8437880dad0219b811faf2842f52",
+      "cache_gravado_utc": "2026-11-14T04:32:15.037683+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-06",
+      "dias": 5,
+      "linhas": 116,
+      "sha256_resposta": "7b966ca2d38f4bc26733b52305a696425c2f418808bf36d459cb6f52cb33d42a",
+      "cache_gravado_utc": "2026-11-14T04:32:14.325539+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-21",
+      "dias": 5,
+      "linhas": 37,
+      "sha256_resposta": "91243f2c46ed40754d8962a11706d1685606021a9a7c81a5e0d6c438d284f1da",
+      "cache_gravado_utc": "2026-11-14T04:32:15.431215+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-01",
+      "dias": 5,
+      "linhas": 56,
+      "sha256_resposta": "ddef158dbf11507269ca9d84cdd98d4647a68822916ad16c06c99d09d502d588",
+      "cache_gravado_utc": "2026-11-14T04:32:16.064615+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-04-26",
+      "dias": 5,
+      "linhas": 52,
+      "sha256_resposta": "1c35da60da9313b3d0754c2ee6ab6019c48b02d83aba3adb4c27bf20af374c19",
+      "cache_gravado_utc": "2026-11-14T04:32:20.740381+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-06",
+      "dias": 5,
+      "linhas": 320,
+      "sha256_resposta": "6ceba7a89ff92de3e3d553620605a3d67749ad130fa7333c750abd0995e9729d",
+      "cache_gravado_utc": "2026-11-14T04:32:21.616799+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-16",
+      "dias": 5,
+      "linhas": 381,
+      "sha256_resposta": "fa4a1614fe95fa059afe5cd5d1dea035a413a661980a1f5799592799f8a944b6",
+      "cache_gravado_utc": "2026-11-14T04:32:18.318705+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-11",
+      "dias": 5,
+      "linhas": 331,
+      "sha256_resposta": "b790a2f0de627d8d0104e102b5ea0c906f618770380fc5ce90265db216f068aa",
+      "cache_gravado_utc": "2026-11-14T04:32:17.160274+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-21",
+      "dias": 5,
+      "linhas": 354,
+      "sha256_resposta": "f6e10ed70693b96443110f0d27caf567cf345d249e7ea4352060e21d22d1fb53",
+      "cache_gravado_utc": "2026-11-14T04:32:19.444115+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-26",
+      "dias": 5,
+      "linhas": 560,
+      "sha256_resposta": "4802fb515a9d636dbf30457eead05d59995817a4cca1cb3e007b274415fa1b57",
+      "cache_gravado_utc": "2026-11-14T04:32:20.759389+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-05-31",
+      "dias": 5,
+      "linhas": 336,
+      "sha256_resposta": "e785da567e9e9b0f1176ae458a9db34344fe1106d77ecff95704e73d66349881",
+      "cache_gravado_utc": "2026-11-14T04:32:21.885015+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-05",
+      "dias": 5,
+      "linhas": 381,
+      "sha256_resposta": "c571ad0e5bda07a2438dca53b2abb5e035d01b93a83433aa771f4ff0f8c13d85",
+      "cache_gravado_utc": "2026-11-14T04:32:22.193386+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-10",
+      "dias": 5,
+      "linhas": 453,
+      "sha256_resposta": "90b7c0bc50c75db9e13b8fac9a38138291c65a8b75f7f9cf9afa0e6533ac5a98",
+      "cache_gravado_utc": "2026-11-14T04:32:22.739822+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-15",
+      "dias": 5,
+      "linhas": 477,
+      "sha256_resposta": "d6f0d7aa966eb432a934982424b9881a9a634fd8516bc6022ee1e0870689d9e2",
+      "cache_gravado_utc": "2026-11-14T04:32:23.151981+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-20",
+      "dias": 5,
+      "linhas": 553,
+      "sha256_resposta": "bbeb74c61faa0d6a10d2b0fc8af0f6f8f62a79d9d6384c790237fbf0eb877ee6",
+      "cache_gravado_utc": "2026-11-14T04:32:23.643950+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-25",
+      "dias": 5,
+      "linhas": 500,
+      "sha256_resposta": "89fcc8f0b13695f9029313e020b822e5128eb2460c11407fadca209c90a69080",
+      "cache_gravado_utc": "2026-11-14T04:32:23.822442+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-06-30",
+      "dias": 5,
+      "linhas": 439,
+      "sha256_resposta": "218c9ede39249459b0fcc3ba1f3b0cc11dfd332411febd552b38915fee51594a",
+      "cache_gravado_utc": "2026-11-14T04:32:24.269474+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-05",
+      "dias": 5,
+      "linhas": 550,
+      "sha256_resposta": "cbbaa82aee3f618c62bd89a836435f433709e2563e4abf7b3b9590594976c0d1",
+      "cache_gravado_utc": "2026-11-14T04:32:24.992434+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-10",
+      "dias": 5,
+      "linhas": 647,
+      "sha256_resposta": "fb30c99ccea249e4118a80b138cd9164a1c08b021e0c68a9337ace1a9a79725a",
+      "cache_gravado_utc": "2026-11-14T04:32:25.326261+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-15",
+      "dias": 5,
+      "linhas": 644,
+      "sha256_resposta": "ad7285c2b531dde17a7077462720f713060e0bfd0654752435de3995a573b95b",
+      "cache_gravado_utc": "2026-11-14T04:32:30.689242+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-20",
+      "dias": 5,
+      "linhas": 641,
+      "sha256_resposta": "4c35d51989339033b5069c4ba15deb770edf24933d98690173b1230e589914e8",
+      "cache_gravado_utc": "2026-11-14T04:32:31.290421+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-25",
+      "dias": 5,
+      "linhas": 991,
+      "sha256_resposta": "895479b3e459c7242b054cb91a24166252a071f66828700fde23190aaef491ea",
+      "cache_gravado_utc": "2026-11-14T04:32:26.720361+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-07-30",
+      "dias": 5,
+      "linhas": 1291,
+      "sha256_resposta": "62ed629e015dd40b8b3f4b4321e64602dc3bd63e9c09057dff103868cf035cb2",
+      "cache_gravado_utc": "2026-11-14T04:32:28.314706+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-04",
+      "dias": 5,
+      "linhas": 1768,
+      "sha256_resposta": "8e9c0030ce612b6ea17b0d81e6ee54b752538e0a1d262832db5ea72200173b76",
+      "cache_gravado_utc": "2026-11-14T04:32:29.891914+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-09",
+      "dias": 5,
+      "linhas": 703,
+      "sha256_resposta": "25d1d92d5e1d7974f890cddfcf510dc9d58e59595131dbfde51abb9eff8ece50",
+      "cache_gravado_utc": "2026-11-14T04:32:31.195800+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-14",
+      "dias": 5,
+      "linhas": 853,
+      "sha256_resposta": "1fc794d99ab107cafeb2fb1aa0d0a1ad3abccda3f6c89d2c9b283860d26bf1e6",
+      "cache_gravado_utc": "2026-11-14T04:32:32.122547+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-19",
+      "dias": 5,
+      "linhas": 1362,
+      "sha256_resposta": "f7760033bacd6c5a5b116dd200c76b39576c462af9d5fb53df483b82397e898c",
+      "cache_gravado_utc": "2026-11-14T04:32:32.827460+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-24",
+      "dias": 5,
+      "linhas": 2404,
+      "sha256_resposta": "65ae2bfe04ad3a8a23c00ea87d11b3f1d880889a6ab5f96edf3ad9258adcfa95",
+      "cache_gravado_utc": "2026-11-14T04:32:34.254843+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-08-29",
+      "dias": 5,
+      "linhas": 3913,
+      "sha256_resposta": "ec929a8cf1bfd7125356a81c727f403f198876dc2749e48a00dd5efc8197f9d8",
+      "cache_gravado_utc": "2026-11-14T04:32:33.913195+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-03",
+      "dias": 5,
+      "linhas": 3307,
+      "sha256_resposta": "da6bb6a5aa6f99f866370a5fc4901dae316d5fc57c43b544ff939f1cc17d018d",
+      "cache_gravado_utc": "2026-11-14T04:32:35.685320+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-08",
+      "dias": 5,
+      "linhas": 5529,
+      "sha256_resposta": "5a9f6bc7ea2cbd1b0b246312d9f1ff406d8b13acc3f5ee43af2332bef50d744f",
+      "cache_gravado_utc": "2026-11-14T04:32:35.925751+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-18",
+      "dias": 5,
+      "linhas": 2593,
+      "sha256_resposta": "02e7abbcac9989a9020bb6ace976b56e0dc55669b8a0108617313b0bcfe7e0c0",
+      "cache_gravado_utc": "2026-11-14T04:32:37.431854+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-13",
+      "dias": 5,
+      "linhas": 4641,
+      "sha256_resposta": "6a8c71066515b5588469a2a3ed0f690edbf2bfff158da0bc7e96f8d245baaccc",
+      "cache_gravado_utc": "2026-11-14T04:32:36.095240+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-23",
+      "dias": 5,
+      "linhas": 3769,
+      "sha256_resposta": "ad04dcfd38534a0b5e1cbb6a49548764712d1ac4952ac8ca92124e28b4226165",
+      "cache_gravado_utc": "2026-11-14T04:32:38.045496+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-09-28",
+      "dias": 5,
+      "linhas": 6729,
+      "sha256_resposta": "c2c3377e0bc3e9af61f746f57c174591116c8ab62d1fc4c110b45f0ff2fa7c3e",
+      "cache_gravado_utc": "2026-11-14T04:32:38.432642+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-03",
+      "dias": 5,
+      "linhas": 5555,
+      "sha256_resposta": "e94d18a7a77613195d1cf41048e41173e7cbba72d59d62747cdf1ff31ca5bef6",
+      "cache_gravado_utc": "2026-11-14T04:32:40.166235+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-08",
+      "dias": 5,
+      "linhas": 2165,
+      "sha256_resposta": "f50c437c0028d00e8b9fcdc2fe1aca89cea1ba9b3a0fbbfe3f5414ee17d55d36",
+      "cache_gravado_utc": "2026-11-14T04:32:39.655729+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-13",
+      "dias": 5,
+      "linhas": 4529,
+      "sha256_resposta": "69f9b89986edabc8e487d0f3dc5aad27d385fc712725da4d71bafec2259c3a9e",
+      "cache_gravado_utc": "2026-11-14T04:32:40.301521+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-18",
+      "dias": 5,
+      "linhas": 1273,
+      "sha256_resposta": "7c3df970f3b46becfa5911b84a1de70c92c6245dcf7dff37799d7d3994b93c10",
+      "cache_gravado_utc": "2026-11-14T04:32:41.247571+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-23",
+      "dias": 5,
+      "linhas": 2809,
+      "sha256_resposta": "3637ddbfe63558ecdc99444987e3a7f42e3bc2d9efddea1e00271c3c35497c37",
+      "cache_gravado_utc": "2026-11-14T04:32:42.092752+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-10-28",
+      "dias": 5,
+      "linhas": 2861,
+      "sha256_resposta": "da0804404394f09b61d414196d66f94e40061d98e9de4aec7c5fa18620a5c8e9",
+      "cache_gravado_utc": "2026-11-14T04:32:42.230872+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-02",
+      "dias": 5,
+      "linhas": 680,
+      "sha256_resposta": "65248a69fc0ca104ae85f16121241cd6a39e509466c7dca51f22e826661cb67e",
+      "cache_gravado_utc": "2026-11-14T04:32:43.076825+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-07",
+      "dias": 5,
+      "linhas": 401,
+      "sha256_resposta": "419833d6d105de4f21006fcd73e48331bec947f95363c6a11feeb313121d90a2",
+      "cache_gravado_utc": "2026-11-14T04:32:48.209695+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-12",
+      "dias": 5,
+      "linhas": 2730,
+      "sha256_resposta": "f6a0af65e70db62657d0df704457d98ccb5deff347e628e665b4a09f17e84130",
+      "cache_gravado_utc": "2026-11-14T04:32:44.185112+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-22",
+      "dias": 5,
+      "linhas": 157,
+      "sha256_resposta": "15fd96d2af7b1e2a3c3f9747e60f6e0df6a54e42d8f2dd840ee9e4d87451af0c",
+      "cache_gravado_utc": "2026-11-14T04:32:45.153406+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-17",
+      "dias": 5,
+      "linhas": 946,
+      "sha256_resposta": "ea1405c8968b21988c51cc9070f1406db032753a4f71568f580b8114c28f6c78",
+      "cache_gravado_utc": "2026-11-14T04:32:44.414254+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-11-27",
+      "dias": 5,
+      "linhas": 118,
+      "sha256_resposta": "e743cb455529916eedc9aaebb0145fded62aaa450badb29dcc2e232f9c4ab380",
+      "cache_gravado_utc": "2026-11-14T04:32:45.485644+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-02",
+      "dias": 5,
+      "linhas": 75,
+      "sha256_resposta": "9ee9f800c8136ff9dcbaf37672b77efa7b1ae54adb9e17820416c46399741842",
+      "cache_gravado_utc": "2026-11-14T04:32:47.161905+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-07",
+      "dias": 5,
+      "linhas": 44,
+      "sha256_resposta": "eea413f8401cad12c784117ed296b2c1dbb212227064dd2da54f30e4f605a123",
+      "cache_gravado_utc": "2026-11-14T04:32:51.688308+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-12",
+      "dias": 5,
+      "linhas": 298,
+      "sha256_resposta": "bed487f1a4750c4d2339a5dc6693b61067e25e4e9363ab719fae3d3db018cf58",
+      "cache_gravado_utc": "2026-11-14T04:32:48.317155+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-17",
+      "dias": 5,
+      "linhas": 154,
+      "sha256_resposta": "f6f0fd3e3b7045bc4e224b5a0cbf091f5edcfe7eaa4f46d64911c793d93c2ead",
+      "cache_gravado_utc": "2026-11-14T04:32:49.177557+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-22",
+      "dias": 5,
+      "linhas": 107,
+      "sha256_resposta": "1d737ea5572ca786d7a4ed7923178cceb2c89b37820c5668b760b80c09da18e2",
+      "cache_gravado_utc": "2026-11-14T04:32:49.490287+00:00"
+    },
+    {
+      "fonte": "VIIRS_NOAA20_SP",
+      "inicio": "2025-12-27",
+      "dias": 5,
+      "linhas": 321,
+      "sha256_resposta": "2dc8d3fd0f91fe7cc83024f1fcf1e99cff1ae08d9cc48bf87089a97f4b1462aa",
+      "cache_gravado_utc": "2026-11-14T04:32:50.298884+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2023-12-18",
+      "dias": 5,
+      "linhas": 43,
+      "sha256_resposta": "f96c8edbca61bf5f01741f937be09c30b44c4c55637e0e4085d6acc655e2750c",
+      "cache_gravado_utc": "2026-11-14T04:32:50.431018+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2023-12-23",
+      "dias": 5,
+      "linhas": 79,
+      "sha256_resposta": "4137be41621d8f5a3828aae7c1a808769dd79596d4637cabb0ca5d88f6c24e76",
+      "cache_gravado_utc": "2026-11-14T04:32:51.214567+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2023-12-28",
+      "dias": 5,
+      "linhas": 57,
+      "sha256_resposta": "f51db970855f00cf815dd5c14fa25afbcb8e889771a93dbbc1e4adb1168dfb29",
+      "cache_gravado_utc": "2026-11-14T04:32:51.609628+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-02",
+      "dias": 5,
+      "linhas": 7,
+      "sha256_resposta": "2df72715b592ff686eb47a2ae6e367a2d6881b8d4660faad31ae8574ae84428f",
+      "cache_gravado_utc": "2026-11-14T04:32:52.094871+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-07",
+      "dias": 5,
+      "linhas": 44,
+      "sha256_resposta": "504bd6f092a8c4d5912475fdb5f778b2ab4680e52d761d95fdf13ee58440ff52",
+      "cache_gravado_utc": "2026-11-14T04:32:52.505214+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-12",
+      "dias": 5,
+      "linhas": 44,
+      "sha256_resposta": "b05b8ffde3b203aef6dc9ff2f01ad4a16feb2a6bb476d8107e90cd2dda8e6a2d",
+      "cache_gravado_utc": "2026-11-14T04:32:52.886367+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-17",
+      "dias": 5,
+      "linhas": 57,
+      "sha256_resposta": "d74627e9f0f7bbcd32c67d1c7f334a53060b3b76105d9f494ee6106e05dcd313",
+      "cache_gravado_utc": "2026-11-14T04:32:53.199839+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-22",
+      "dias": 5,
+      "linhas": 28,
+      "sha256_resposta": "b95c07ebc2eba6e59af10c481af99368d617d67305c6d3c71085c6ce8a6c630a",
+      "cache_gravado_utc": "2026-11-14T04:32:53.602555+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-01-27",
+      "dias": 5,
+      "linhas": 2,
+      "sha256_resposta": "d3a8d013d7871db3db56c4256818873feb66cdda755d2b5175cf9d7172a9ca4e",
+      "cache_gravado_utc": "2026-11-14T04:32:53.925906+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-01",
+      "dias": 5,
+      "linhas": 16,
+      "sha256_resposta": "29dd4a8d4716cecbaa9a679421e78449f4785022cb5944f10cbff9c5559aa9b4",
+      "cache_gravado_utc": "2026-11-14T04:32:54.234486+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-06",
+      "dias": 5,
+      "linhas": 30,
+      "sha256_resposta": "9666977563924a1014081028f41b733e11aeb233f4ade939918c3a0d78ddacaa",
+      "cache_gravado_utc": "2026-11-14T04:32:54.597858+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-11",
+      "dias": 5,
+      "linhas": 22,
+      "sha256_resposta": "0ee5063c3346717d1cd892353bf23f339b83dfdfef3ac4d02ccacfe340ba1004",
+      "cache_gravado_utc": "2026-11-14T04:32:54.972031+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-21",
+      "dias": 5,
+      "linhas": 9,
+      "sha256_resposta": "0eb95cd0f731460adf91c6d5efb146f8359ce39d1e2fab8a73a29ab602543959",
+      "cache_gravado_utc": "2026-11-14T04:32:55.645104+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-16",
+      "dias": 5,
+      "linhas": 32,
+      "sha256_resposta": "e9b78dc692b154ec6e9ab6b2f6f4de3622402c3317bf7221925e44fda91d9c13",
+      "cache_gravado_utc": "2026-11-14T04:32:55.341569+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-02",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "46e94fe45a25186c253b92fefa4fb1fdbd46272ceefc8042917d44673e64d3db",
+      "cache_gravado_utc": "2026-11-14T04:32:56.340278+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-02-26",
+      "dias": 5,
+      "linhas": 84,
+      "sha256_resposta": "47bcd57f5a6a5dee42b2d665e0ee01c8d43eb3003d097de6ac8903873f6462d3",
+      "cache_gravado_utc": "2026-11-14T04:32:55.996552+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-07",
+      "dias": 5,
+      "linhas": 82,
+      "sha256_resposta": "ea8aa2c782d9e49f3da956f9edb85e542e72180cf31712a048a070aa5e272819",
+      "cache_gravado_utc": "2026-11-14T04:32:56.709284+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-12",
+      "dias": 5,
+      "linhas": 86,
+      "sha256_resposta": "b42883cb36b70ea816217ab73161a69548dbe06590ae7f27392942191d34f195",
+      "cache_gravado_utc": "2026-11-14T04:32:57.036376+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-17",
+      "dias": 5,
+      "linhas": 96,
+      "sha256_resposta": "956874e4b29e32e6d8662392f5503d22aecdcec360862dbd87e72e724e7b1967",
+      "cache_gravado_utc": "2026-11-14T04:32:57.380508+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-22",
+      "dias": 5,
+      "linhas": 19,
+      "sha256_resposta": "ef8181afa7024c19b69bbea7ea8acc08a0fca0ed7610ae5bcb6544aa70c339e4",
+      "cache_gravado_utc": "2026-11-14T04:32:58.799199+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-03-27",
+      "dias": 5,
+      "linhas": 44,
+      "sha256_resposta": "e8c84370138776142f46cd2902113213175c596c903bdc658d22d73ec2d53ccf",
+      "cache_gravado_utc": "2026-11-14T04:33:03.128771+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-01",
+      "dias": 5,
+      "linhas": 18,
+      "sha256_resposta": "9ee0e75af12fad7365885d790c8255f4b20588bb7e19fa6448d07d538600715d",
+      "cache_gravado_utc": "2026-11-14T04:32:58.458436+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-06",
+      "dias": 5,
+      "linhas": 11,
+      "sha256_resposta": "39b82990384345d2b12e91ce1a3454bed01f2572703372bae3d2da8d145af004",
+      "cache_gravado_utc": "2026-11-14T04:32:59.335785+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-11",
+      "dias": 5,
+      "linhas": 9,
+      "sha256_resposta": "f4fb6afeeeab04741ecb2a72e8221093c7c2939eeef3e204de7ebe522476eb93",
+      "cache_gravado_utc": "2026-11-14T04:33:04.716329+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-16",
+      "dias": 5,
+      "linhas": 33,
+      "sha256_resposta": "8d73f4da5528181f3b713b9ee25df65c990480f19058f895413f8d94eb5ccdab",
+      "cache_gravado_utc": "2026-11-14T04:33:00.204668+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-21",
+      "dias": 5,
+      "linhas": 54,
+      "sha256_resposta": "c75f89f0b041e3008c8f73ad119d048e2ec1dfd9909606f1bf9c9317e9156db9",
+      "cache_gravado_utc": "2026-11-14T04:33:01.085246+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-04-26",
+      "dias": 5,
+      "linhas": 35,
+      "sha256_resposta": "acd315aa4c50c1a826225d19f693ec089226e57b2966e6a664418ac31471a500",
+      "cache_gravado_utc": "2026-11-14T04:33:02.196277+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-01",
+      "dias": 5,
+      "linhas": 127,
+      "sha256_resposta": "363b6e7fde3fa187ecc2a81bf73457a01cd1ad90099f194eb17d4f681cdb517e",
+      "cache_gravado_utc": "2026-11-14T04:33:03.102940+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-06",
+      "dias": 5,
+      "linhas": 96,
+      "sha256_resposta": "8dad110c62039c489e9683ad11a488b2dd1f865445f59a20598eadb7de5cda10",
+      "cache_gravado_utc": "2026-11-14T04:33:03.980630+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-11",
+      "dias": 5,
+      "linhas": 106,
+      "sha256_resposta": "c6b9dfc61c8a5408fb51cca114715b806f430d6df97fcac4de13fb8acbcbe7bf",
+      "cache_gravado_utc": "2026-11-14T04:33:05.348458+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-16",
+      "dias": 5,
+      "linhas": 144,
+      "sha256_resposta": "36f33094ca0172f8061fa6d6c2b09f9fd6e943650ed5cc040e95f3504694fb83",
+      "cache_gravado_utc": "2026-11-14T04:33:04.909240+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-21",
+      "dias": 5,
+      "linhas": 169,
+      "sha256_resposta": "c41ebd18aa3c725bd6da771084c9774144da4de2a25e2f5dc16c790c542818c9",
+      "cache_gravado_utc": "2026-11-14T04:33:05.793617+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-26",
+      "dias": 5,
+      "linhas": 149,
+      "sha256_resposta": "b4e799ca2d7df22edd5657a972a4d22183972a3f31ff172558f5cfe2681e3426",
+      "cache_gravado_utc": "2026-11-14T04:33:05.992200+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-05-31",
+      "dias": 5,
+      "linhas": 222,
+      "sha256_resposta": "0813a33ff53fbf1ddfba50a11c23ee33aebe0c5fd1b51bc5fb2c2370c21883f7",
+      "cache_gravado_utc": "2026-11-14T04:33:06.527005+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-05",
+      "dias": 5,
+      "linhas": 212,
+      "sha256_resposta": "3b060bde7595999c2033dfc45efd2ff8f20d2453a47849f55136e398674048d9",
+      "cache_gravado_utc": "2026-11-14T04:33:06.876913+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-10",
+      "dias": 5,
+      "linhas": 183,
+      "sha256_resposta": "46e02160663c547b16e662e16634d18b3314fca7ceb1b5f3227f8664405fd1c3",
+      "cache_gravado_utc": "2026-11-14T04:33:07.202981+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-15",
+      "dias": 5,
+      "linhas": 245,
+      "sha256_resposta": "b0c9be8231178a6db61923efa51bb1d11ffcaefdae2cfe0fd3f4c2747cd63a50",
+      "cache_gravado_utc": "2026-11-14T04:33:07.869599+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-20",
+      "dias": 5,
+      "linhas": 278,
+      "sha256_resposta": "b7bbd29fc79cc570a68e989a7b212f5deefb7d3e9e911d4150067e461609c237",
+      "cache_gravado_utc": "2026-11-14T04:33:08.077972+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-25",
+      "dias": 5,
+      "linhas": 187,
+      "sha256_resposta": "b89c5eda8f398fcb1f3a317e736f58b06101683cbdcfff3a0d5f8a73e9419d53",
+      "cache_gravado_utc": "2026-11-14T04:33:08.574069+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-06-30",
+      "dias": 5,
+      "linhas": 210,
+      "sha256_resposta": "e07a974b5680b94d17e705f6ff4369bcbb8fc51e93e7187ddd3d7151b25a2c27",
+      "cache_gravado_utc": "2026-11-14T04:33:09.015723+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-05",
+      "dias": 5,
+      "linhas": 148,
+      "sha256_resposta": "0a61f61f55780c377cf5b19b0ff80aaf8de34fd88bdff25a551b2259f078acae",
+      "cache_gravado_utc": "2026-11-14T04:33:09.229623+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-10",
+      "dias": 5,
+      "linhas": 223,
+      "sha256_resposta": "0bb5b53e1b4fb94d3c475735a91b076a0ce2a90658ee6565a89411aa993ad6d9",
+      "cache_gravado_utc": "2026-11-14T04:33:09.736112+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-15",
+      "dias": 5,
+      "linhas": 342,
+      "sha256_resposta": "1a88de837b2b0e127da30e725671c0218f08ff26bf6422c29310610e848b5274",
+      "cache_gravado_utc": "2026-11-14T04:33:10.182971+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-20",
+      "dias": 5,
+      "linhas": 198,
+      "sha256_resposta": "90b81c918be7a725d49bb276a6778457dca51d082a73b644662a63beb8a81cd6",
+      "cache_gravado_utc": "2026-11-14T04:33:10.527615+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-25",
+      "dias": 5,
+      "linhas": 316,
+      "sha256_resposta": "cd42845c9cc2cf2eeeb18e63265795d1aadb02faa39ce331527ee62e0b069733",
+      "cache_gravado_utc": "2026-11-14T04:33:10.946169+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-07-30",
+      "dias": 5,
+      "linhas": 207,
+      "sha256_resposta": "60cdcdecf33bad98b935e1e6d5461822c91e7cc0311d2d08180cf0c692e3624a",
+      "cache_gravado_utc": "2026-11-14T04:33:11.309532+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-04",
+      "dias": 5,
+      "linhas": 266,
+      "sha256_resposta": "e82efb3613d8e2c969b7bc02dc10d91f9280e8506b8bd7e1d791eef2dedd2565",
+      "cache_gravado_utc": "2026-11-14T04:33:11.718576+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-09",
+      "dias": 5,
+      "linhas": 170,
+      "sha256_resposta": "07312b3abf1cf1ecbe56bc4b353f16ca3af1f8879d83f0cb2d2ead13ad9d9452",
+      "cache_gravado_utc": "2026-11-14T04:33:12.061790+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-14",
+      "dias": 5,
+      "linhas": 272,
+      "sha256_resposta": "4612e37bd8c92c104d6c9069235a839ca4cdcb3aedc8958ea461130c9dfed337",
+      "cache_gravado_utc": "2026-11-14T04:33:12.444952+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-19",
+      "dias": 5,
+      "linhas": 414,
+      "sha256_resposta": "e6412db8c7fea9b5f5442bc31784a7fc689902c61189975c6c6ce5033c73f067",
+      "cache_gravado_utc": "2026-11-14T04:33:17.886697+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-24",
+      "dias": 5,
+      "linhas": 749,
+      "sha256_resposta": "6a8adc84b633d6aa80df740ef8a8d6acdd4dd325d839a8135ccf0ce1b126854e",
+      "cache_gravado_utc": "2026-11-14T04:33:13.433335+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-08-29",
+      "dias": 5,
+      "linhas": 725,
+      "sha256_resposta": "b4e960ae562d588e0586df0cdcd2d046838f3d72f1c68b212798d9a7ec7fb3f2",
+      "cache_gravado_utc": "2026-11-14T04:33:13.756489+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-03",
+      "dias": 5,
+      "linhas": 1013,
+      "sha256_resposta": "f33b850227e7e093c594831f2720e564c9b253e01d0220694de936ae5d6a38c4",
+      "cache_gravado_utc": "2026-11-14T04:33:14.900188+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-08",
+      "dias": 5,
+      "linhas": 972,
+      "sha256_resposta": "dfac61c89ab0299172c4b40d78848960df5faf72e3b13706bc1498184a7cd8be",
+      "cache_gravado_utc": "2026-11-14T04:33:15.110001+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-13",
+      "dias": 5,
+      "linhas": 911,
+      "sha256_resposta": "de7e232edfd1171246fb9e9d948bec45e35930ef9c4f2d58f4214b55f511ce73",
+      "cache_gravado_utc": "2026-11-14T04:33:16.317643+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-18",
+      "dias": 5,
+      "linhas": 1200,
+      "sha256_resposta": "918b1c7f7f5f4f1bdb37250267d243efb4a23f4922489f195033d51bc6129b59",
+      "cache_gravado_utc": "2026-11-14T04:33:16.891273+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-23",
+      "dias": 5,
+      "linhas": 891,
+      "sha256_resposta": "e9db09c0c95e77d04fd58fbc84091a823917d608ea28852d58fb446e43c7130f",
+      "cache_gravado_utc": "2026-11-14T04:33:17.657530+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-09-28",
+      "dias": 5,
+      "linhas": 966,
+      "sha256_resposta": "baa9e93a5cc2335d0e25241f0be8954280149533fc34658fab6b7373c467861a",
+      "cache_gravado_utc": "2026-11-14T04:33:18.188823+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-03",
+      "dias": 5,
+      "linhas": 608,
+      "sha256_resposta": "3741e89f6a522befaf5cb8965424b18ae9ef0e479acb4e9ece1e5386bd1cb8b4",
+      "cache_gravado_utc": "2026-11-14T04:33:19.025860+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-08",
+      "dias": 5,
+      "linhas": 408,
+      "sha256_resposta": "dec8c13e898416b7ab85120612aca20532f1114fb3747c10172483cd3809ee14",
+      "cache_gravado_utc": "2026-11-14T04:33:24.135380+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-13",
+      "dias": 5,
+      "linhas": 552,
+      "sha256_resposta": "5b6266a7ea74b634756db4640174928d6f6a3f4e1acde066994c2f961f3939e4",
+      "cache_gravado_utc": "2026-11-14T04:33:20.868976+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-18",
+      "dias": 5,
+      "linhas": 93,
+      "sha256_resposta": "8706a325a21c1289ef356582ebf77878bd62f54d62fbb75d15adaf7d05561e2e",
+      "cache_gravado_utc": "2026-11-14T04:33:19.965000+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-23",
+      "dias": 5,
+      "linhas": 451,
+      "sha256_resposta": "4e72bbf1cfa330d8cb96541151d8dc30fa495d3d0a46b35346dd55f4027b3b9a",
+      "cache_gravado_utc": "2026-11-14T04:33:21.289597+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-10-28",
+      "dias": 5,
+      "linhas": 175,
+      "sha256_resposta": "94614e41ec0cae66aac83eafde9a5431eb7540134dff4ef45a51fc4a35d5c3a5",
+      "cache_gravado_utc": "2026-11-14T04:33:22.207875+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-02",
+      "dias": 5,
+      "linhas": 180,
+      "sha256_resposta": "879d78a73f7d4faefee5a847da7c5342be366a6be2e0409bea1fdfa8d6b84557",
+      "cache_gravado_utc": "2026-11-14T04:33:22.402822+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-12",
+      "dias": 5,
+      "linhas": 48,
+      "sha256_resposta": "bf9958d8024e4abd5656390c9ef79b49dab03a43220d2c2aa783099f8b8a3241",
+      "cache_gravado_utc": "2026-11-14T04:33:28.496856+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-07",
+      "dias": 5,
+      "linhas": 82,
+      "sha256_resposta": "c991321f916551afe76eb42d82c28682b00ea54e47fad057d86f83bc01bc0ff9",
+      "cache_gravado_utc": "2026-11-14T04:33:23.397846+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-17",
+      "dias": 5,
+      "linhas": 241,
+      "sha256_resposta": "399bcc31af7899ddbe39ec40366f3a682c260794db77b769ad622b1b4d45d11c",
+      "cache_gravado_utc": "2026-11-14T04:33:24.531632+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-22",
+      "dias": 5,
+      "linhas": 13,
+      "sha256_resposta": "bfc2ad487f2cea4e606b36db21c8ced77fe452ab37a3c9ac56393bbe12de9cb3",
+      "cache_gravado_utc": "2026-11-14T04:33:25.063489+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-11-27",
+      "dias": 5,
+      "linhas": 109,
+      "sha256_resposta": "e3eae7f43d2dabb58f15dc337c2ed6bcdf65736a7738353d73d15d13b4f76e48",
+      "cache_gravado_utc": "2026-11-14T04:33:25.395166+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-02",
+      "dias": 5,
+      "linhas": 53,
+      "sha256_resposta": "cd62e09ce67205d2155f53f3fa1ab49a4a57b87e16d306e49c1fefe1f984e7d4",
+      "cache_gravado_utc": "2026-11-14T04:33:25.998465+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-12",
+      "dias": 5,
+      "linhas": 75,
+      "sha256_resposta": "4f2f6163345003399b79e9e115de9da02b94f6b929bb5f579c8e44863f74b15a",
+      "cache_gravado_utc": "2026-11-14T04:33:26.948986+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-07",
+      "dias": 5,
+      "linhas": 98,
+      "sha256_resposta": "91c73d8fa215ce466c38b622f89dd8aa180e2cca5b5e74ec6c5c23acdd967f68",
+      "cache_gravado_utc": "2026-11-14T04:33:26.371947+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-17",
+      "dias": 5,
+      "linhas": 11,
+      "sha256_resposta": "8d65fd3030736ddaa60bbaa57381adf844ad497a9ea19f4b0abed4445ac47995",
+      "cache_gravado_utc": "2026-11-14T04:33:27.287689+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-22",
+      "dias": 5,
+      "linhas": 36,
+      "sha256_resposta": "3b86601976ec443c3d267cb5ab15c6122e208243962883dc7760452ded808975",
+      "cache_gravado_utc": "2026-11-14T04:33:27.856516+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2024-12-27",
+      "dias": 5,
+      "linhas": 50,
+      "sha256_resposta": "9dcc377d69a36c1a9f496a36da9b9ef700a7237deabbeab5beefdc9b1baba3fe",
+      "cache_gravado_utc": "2026-11-14T04:33:33.191227+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-01",
+      "dias": 5,
+      "linhas": 56,
+      "sha256_resposta": "44b4fed7d97519857b06c759a4f0aa71dbb12fe98b38a573e737223a5060d962",
+      "cache_gravado_utc": "2026-11-14T04:33:28.746397+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-06",
+      "dias": 5,
+      "linhas": 3,
+      "sha256_resposta": "f85f0b148ea15f50671ed81ac3c6276422c4b53c613cd621c63fb4fa0b91b375",
+      "cache_gravado_utc": "2026-11-14T04:33:34.414740+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-11",
+      "dias": 5,
+      "linhas": 0,
+      "sha256_resposta": "b335277b53c6ffb4476f76ef457d775527f70fe5287310a46db6301d06266520",
+      "cache_gravado_utc": "2026-11-14T04:33:29.761114+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-16",
+      "dias": 5,
+      "linhas": 11,
+      "sha256_resposta": "c41ca60186dd6b79a9d2155df50f647680d9a58713be72dd439fa37663da4c12",
+      "cache_gravado_utc": "2026-11-14T04:33:30.687382+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-21",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "bbfdc6bab6d69937afcb6c5d0ed5fe8bbf48ce722b211f84cefe9a297ec04c0b",
+      "cache_gravado_utc": "2026-11-14T04:33:31.767283+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-26",
+      "dias": 5,
+      "linhas": 30,
+      "sha256_resposta": "f10387798b8492bcd533b74e43587e92c42caab189f3a8eda7f04212f1349ab0",
+      "cache_gravado_utc": "2026-11-14T04:33:32.660204+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-01-31",
+      "dias": 5,
+      "linhas": 1,
+      "sha256_resposta": "ee7dd2fd164b6a71c6391a0b2a03d09dd40aadffd00c13ba6ca4ee2e82ef460b",
+      "cache_gravado_utc": "2026-11-14T04:33:33.565176+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-02-10",
+      "dias": 5,
+      "linhas": 38,
+      "sha256_resposta": "369e41ffa5f51f72b71cc8f3ce8329222f8e71740a1ee68515d254ff90f71ba5",
+      "cache_gravado_utc": "2026-11-14T04:33:34.476264+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-02-05",
+      "dias": 5,
+      "linhas": 60,
+      "sha256_resposta": "adb1683b42298e60b23ad32f46ef46cc2519aae8bb7e42b778029a9946ebf2f5",
+      "cache_gravado_utc": "2026-11-14T04:33:34.355075+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-02-15",
+      "dias": 5,
+      "linhas": 34,
+      "sha256_resposta": "a215184ad4691c6a9962eead34b49fc52bc1a078e1b6bd833e85741daafd0fd0",
+      "cache_gravado_utc": "2026-11-14T04:33:35.259141+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-02-25",
+      "dias": 5,
+      "linhas": 15,
+      "sha256_resposta": "3dad570f8000ec803706c5cdcdc23ac9990d945f0f216c45eaa0bd541c5ecba0",
+      "cache_gravado_utc": "2026-11-14T04:33:35.981138+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-02-20",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "149e9688f27dc8830379de63ff21cd0444241e2ef2864ff77069b920fbcd8e69",
+      "cache_gravado_utc": "2026-11-14T04:33:35.569162+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-02",
+      "dias": 5,
+      "linhas": 28,
+      "sha256_resposta": "d02d99d732d0d0b382da34e94f0652ef05e33f6a576e6691eeb4197a30e26342",
+      "cache_gravado_utc": "2026-11-14T04:33:36.298681+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-07",
+      "dias": 5,
+      "linhas": 12,
+      "sha256_resposta": "a8bf716cc0b06009bebe1c37738084640da43268c2efc0976149d44248266177",
+      "cache_gravado_utc": "2026-11-14T04:33:36.634548+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-12",
+      "dias": 5,
+      "linhas": 53,
+      "sha256_resposta": "c2a7d81f9bb6deadd3492605cdb92ace49b943f007bd925b78f0846300201c88",
+      "cache_gravado_utc": "2026-11-14T04:33:36.952457+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-17",
+      "dias": 5,
+      "linhas": 25,
+      "sha256_resposta": "848c50b233aab38e11f3c0fd96ee12a900f38b4720bade08ed7bcb0e3b27b522",
+      "cache_gravado_utc": "2026-11-14T04:33:37.573340+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-22",
+      "dias": 5,
+      "linhas": 27,
+      "sha256_resposta": "9544c58249718bb933df8caf624633b0a9008384220152d7f95871626f5e2481",
+      "cache_gravado_utc": "2026-11-14T04:33:37.689156+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-03-27",
+      "dias": 5,
+      "linhas": 14,
+      "sha256_resposta": "e0080e7624bcaaa14709117aabd2ce65a35478c188051620ba91498a2b89cefc",
+      "cache_gravado_utc": "2026-11-14T04:33:38.045484+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-01",
+      "dias": 5,
+      "linhas": 37,
+      "sha256_resposta": "17e07ccb2eac66b007883d3c666d31ca9c81e770b348a464fc4455e2ebd7ab8e",
+      "cache_gravado_utc": "2026-11-14T04:33:38.476630+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-06",
+      "dias": 5,
+      "linhas": 45,
+      "sha256_resposta": "d06ed37165a22d09f00a9cf7da0ae475653735d00b56c8218268b36b604f00bc",
+      "cache_gravado_utc": "2026-11-14T04:33:38.789270+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-11",
+      "dias": 5,
+      "linhas": 8,
+      "sha256_resposta": "474bc16bb6289819b7b5138bb9893738915b6be8d72225e466258bbbf80e5067",
+      "cache_gravado_utc": "2026-11-14T04:33:44.165708+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-16",
+      "dias": 5,
+      "linhas": 13,
+      "sha256_resposta": "a9242b7908d705398f9dbecf1e58c1d613c8bc7a53676c228584c5d3cf427585",
+      "cache_gravado_utc": "2026-11-14T04:33:39.499588+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-21",
+      "dias": 5,
+      "linhas": 46,
+      "sha256_resposta": "a9151cbf49d980fff475b68edb64de59fd252810c46b1f71d5b4089b848c968b",
+      "cache_gravado_utc": "2026-11-14T04:33:39.859464+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-01",
+      "dias": 5,
+      "linhas": 36,
+      "sha256_resposta": "c496c69056b4acac0bda8ee6e88887f9e1f74c33becb8cfe9cee225b5a76a6f1",
+      "cache_gravado_utc": "2026-11-14T04:33:45.725424+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-04-26",
+      "dias": 5,
+      "linhas": 36,
+      "sha256_resposta": "a4b689429742d2c420b5cdd03ed0abb53dbf4e8208b1191ebc23a2ad3a6e73ba",
+      "cache_gravado_utc": "2026-11-14T04:33:40.387250+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-06",
+      "dias": 5,
+      "linhas": 122,
+      "sha256_resposta": "5aa087e121cbf91dcc9586db88923adc45f945e22ed845f7773a0c16f4282b44",
+      "cache_gravado_utc": "2026-11-14T04:33:41.276410+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-11",
+      "dias": 5,
+      "linhas": 133,
+      "sha256_resposta": "00dc28c628ef2841dd3c1698e7d3ad0d7ddfa8cb95bf0e46f5a436dc59a68b11",
+      "cache_gravado_utc": "2026-11-14T04:33:42.132640+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-16",
+      "dias": 5,
+      "linhas": 117,
+      "sha256_resposta": "1981fbebc12e65431d5e9fbc91aef76f6a825778e7036a5a9ddb7dacbde2c95a",
+      "cache_gravado_utc": "2026-11-14T04:33:43.055696+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-21",
+      "dias": 5,
+      "linhas": 115,
+      "sha256_resposta": "2b99b87daca5acce8af194d479cac25e27bee1d6207a5f6aa34c09652c53b432",
+      "cache_gravado_utc": "2026-11-14T04:33:43.936264+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-31",
+      "dias": 5,
+      "linhas": 123,
+      "sha256_resposta": "df706038937a1fef1b01f21cab5096a26d83ce18ddac596a1db271526131ee47",
+      "cache_gravado_utc": "2026-11-14T04:33:45.152864+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-05-26",
+      "dias": 5,
+      "linhas": 209,
+      "sha256_resposta": "b876f76cdb9fac5f2e43a43110053c1e4b5367977a298cd2c626c1a2b867562a",
+      "cache_gravado_utc": "2026-11-14T04:33:45.003525+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-05",
+      "dias": 5,
+      "linhas": 141,
+      "sha256_resposta": "8b37c845b66ffe05bba8a15663d46ff5a6aacee9e3b4edeeb1aa679a5b2f0425",
+      "cache_gravado_utc": "2026-11-14T04:33:45.897991+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-15",
+      "dias": 5,
+      "linhas": 176,
+      "sha256_resposta": "e0211d422fe47e1cc55c3092d55b5a03f0d2c917482def1ef8e0a6daabf61684",
+      "cache_gravado_utc": "2026-11-14T04:33:46.817900+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-10",
+      "dias": 5,
+      "linhas": 212,
+      "sha256_resposta": "4574e4bb3ab579fb32bddaa75c2e9476bc8f9027bb824627f998ed680a6b8363",
+      "cache_gravado_utc": "2026-11-14T04:33:46.505327+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-20",
+      "dias": 5,
+      "linhas": 208,
+      "sha256_resposta": "13196d6f36a2c7e7d2c54dbc771714eea78af1d2140515d0e6b2e0078ac9debb",
+      "cache_gravado_utc": "2026-11-14T04:33:47.135704+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-25",
+      "dias": 5,
+      "linhas": 201,
+      "sha256_resposta": "dde8f46d12ced9f79b48874119b7a8aae2f882b8ee91f58ffd940b5e345f4279",
+      "cache_gravado_utc": "2026-11-14T04:33:47.556284+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-06-30",
+      "dias": 5,
+      "linhas": 210,
+      "sha256_resposta": "03ea2d6d7d730597dbfc66d1448d560915b4c0d531185ec7a96b9783accc7f48",
+      "cache_gravado_utc": "2026-11-14T04:33:47.922276+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-05",
+      "dias": 5,
+      "linhas": 175,
+      "sha256_resposta": "976edd897db936f0e1456c09b26ae1bebd3f83ae43a562ffd07272c8c9c3fb45",
+      "cache_gravado_utc": "2026-11-14T04:33:48.491620+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-10",
+      "dias": 5,
+      "linhas": 216,
+      "sha256_resposta": "7154c1a2249b3cf076328a6733e2808f33a25e5218e70115af2fb0759ad566d7",
+      "cache_gravado_utc": "2026-11-14T04:33:48.663522+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-15",
+      "dias": 5,
+      "linhas": 272,
+      "sha256_resposta": "a42beb037e4b3a3a7ff0ada311272199b89d74c4bb97fdd4e551bc037d439cdd",
+      "cache_gravado_utc": "2026-11-14T04:33:48.973608+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-20",
+      "dias": 5,
+      "linhas": 242,
+      "sha256_resposta": "653d41ea2ba03b6f00e2488260a1775a02e243cae77e8297be64174bca29d76c",
+      "cache_gravado_utc": "2026-11-14T04:33:49.619750+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-25",
+      "dias": 5,
+      "linhas": 314,
+      "sha256_resposta": "7cb71b629c279626d8711ae65b683f86b8e60575517c27ba2bc978dffcd6e8df",
+      "cache_gravado_utc": "2026-11-14T04:33:49.962099+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-07-30",
+      "dias": 5,
+      "linhas": 413,
+      "sha256_resposta": "2d620b420d46762a5c76119628d60ef0c67585e0f61a51cba116ebe6932f0a06",
+      "cache_gravado_utc": "2026-11-14T04:33:50.247155+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-04",
+      "dias": 5,
+      "linhas": 480,
+      "sha256_resposta": "8cd3f1d9752f7d259649065cd43e39c91a900f2d9dcb411a8a1ee666983f149a",
+      "cache_gravado_utc": "2026-11-14T04:33:50.753505+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-09",
+      "dias": 5,
+      "linhas": 232,
+      "sha256_resposta": "f7145d0be253f6b5cb49365520b103903fe74196dca9d1e14c5587aedab1a645",
+      "cache_gravado_utc": "2026-11-14T04:33:52.083570+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-14",
+      "dias": 5,
+      "linhas": 243,
+      "sha256_resposta": "aa3191bdd9dd61627b581e2ebae53d34ac7c11b1664d6b6dcff7722aacf2cb2c",
+      "cache_gravado_utc": "2026-11-14T04:33:51.402352+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-19",
+      "dias": 5,
+      "linhas": 343,
+      "sha256_resposta": "7ea5bb6987d77eb14934d697d194ff167ec620dcc5d19207241f2a65013d1b8b",
+      "cache_gravado_utc": "2026-11-14T04:33:51.812427+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-24",
+      "dias": 5,
+      "linhas": 624,
+      "sha256_resposta": "5c3c050405a507206a3189bedf477703bd997756e6e936c131dc693e87ba8025",
+      "cache_gravado_utc": "2026-11-14T04:33:52.752094+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-08-29",
+      "dias": 5,
+      "linhas": 1000,
+      "sha256_resposta": "86245ba1eb711e61103d69299060762aff73c986aa9f64b74a336372880fdc82",
+      "cache_gravado_utc": "2026-11-14T04:33:53.141121+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-03",
+      "dias": 5,
+      "linhas": 752,
+      "sha256_resposta": "036071fd347d3a900eb662769b82fd497a3ac62f4ee94d5f75c2ffa6b17c755d",
+      "cache_gravado_utc": "2026-11-14T04:33:53.452800+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-08",
+      "dias": 5,
+      "linhas": 1274,
+      "sha256_resposta": "f98e8410383f2533903e3a3579a85488f1966f44be3a26afc02d9e7c0622cc8f",
+      "cache_gravado_utc": "2026-11-14T04:33:54.206145+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-13",
+      "dias": 5,
+      "linhas": 1129,
+      "sha256_resposta": "e892454178a8072c086d7804276940175e707c5d6cbee0b12c4d808a4fc1b85a",
+      "cache_gravado_utc": "2026-11-14T04:33:54.426056+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-18",
+      "dias": 5,
+      "linhas": 469,
+      "sha256_resposta": "c5a343a4144343fedb24e8333fb08de70da18686a54ef4a717fdba4425f1e6ea",
+      "cache_gravado_utc": "2026-11-14T04:33:54.551757+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-23",
+      "dias": 5,
+      "linhas": 783,
+      "sha256_resposta": "86e47a7cc737a00cccfc158bcab787a3d5d58ea3b3ce42aa68f76ad381083b53",
+      "cache_gravado_utc": "2026-11-14T04:33:55.482970+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-09-28",
+      "dias": 5,
+      "linhas": 1479,
+      "sha256_resposta": "a666105cd82498387f6a3fc88cab4b79a611e842cb7f316f6b2258dd51c89474",
+      "cache_gravado_utc": "2026-11-14T04:33:56.008629+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-03",
+      "dias": 5,
+      "linhas": 1264,
+      "sha256_resposta": "0cd96021909d61fbf2111d23e13a4777929bd4e468387f3f4e828aab850ccde1",
+      "cache_gravado_utc": "2026-11-14T04:33:56.315307+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-08",
+      "dias": 5,
+      "linhas": 450,
+      "sha256_resposta": "68c3c77ea451aa4b65e05a37b0a4498b90b851265d50a39bbccc1ffce78f7a18",
+      "cache_gravado_utc": "2026-11-14T04:33:56.605394+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-13",
+      "dias": 5,
+      "linhas": 1486,
+      "sha256_resposta": "80f232570075afaf26360154d240f44a081d57d3a0d4eda73bc77a65ceb766f0",
+      "cache_gravado_utc": "2026-11-14T04:33:57.458898+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-18",
+      "dias": 5,
+      "linhas": 281,
+      "sha256_resposta": "6c49d9c83a67b9a59b17a24b2c762d9060c8ef78c2ca3a91c732bf016e2d6804",
+      "cache_gravado_utc": "2026-11-14T04:33:57.470752+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-23",
+      "dias": 5,
+      "linhas": 713,
+      "sha256_resposta": "cea84ca31be88a946872c3cc040237bdc7b1aedb66fd1be5429f8dbb7d17fb2c",
+      "cache_gravado_utc": "2026-11-14T04:33:58.171944+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-10-28",
+      "dias": 5,
+      "linhas": 631,
+      "sha256_resposta": "f0e776b3716d53ad2005a79451609fef992558391185f7cf061385e06f97928f",
+      "cache_gravado_utc": "2026-11-14T04:33:58.710940+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-02",
+      "dias": 5,
+      "linhas": 179,
+      "sha256_resposta": "e7db9cfe0bd2779f2c52c5c6d7f3083f0c47a4cce320ac6afb219a0a7674e5ba",
+      "cache_gravado_utc": "2026-11-14T04:33:58.968481+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-07",
+      "dias": 5,
+      "linhas": 130,
+      "sha256_resposta": "e894208f8252acb6bd5abcb7ccff5a603544794b42bc6e333398f66b67995176",
+      "cache_gravado_utc": "2026-11-14T04:33:59.058459+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-12",
+      "dias": 5,
+      "linhas": 710,
+      "sha256_resposta": "8bef25bd12318ca75c80a8f1a8a5a22418d96b6ba217281bd46ca1e49a821b26",
+      "cache_gravado_utc": "2026-11-14T04:33:59.931697+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-22",
+      "dias": 5,
+      "linhas": 50,
+      "sha256_resposta": "b219007b06969933fb4a18437d7542a01fad090a6cef7637867bebf4a3f5e145",
+      "cache_gravado_utc": "2026-11-14T04:34:00.324953+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-17",
+      "dias": 5,
+      "linhas": 322,
+      "sha256_resposta": "83332f1514b48add29c2eec8e9936dbbbecdf40e751890a4dce074b9ea10f7f9",
+      "cache_gravado_utc": "2026-11-14T04:34:00.143287+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-11-27",
+      "dias": 5,
+      "linhas": 51,
+      "sha256_resposta": "3a76b54e200d6b8189977e8bdf67196fa98f8d1d317d4c1f5ddf57b204f28e52",
+      "cache_gravado_utc": "2026-11-14T04:34:00.806855+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-02",
+      "dias": 5,
+      "linhas": 19,
+      "sha256_resposta": "fbdf278fb20fc69de05789aea396ec9b5dba0bcdc10e2da6225a2f88214f5fe7",
+      "cache_gravado_utc": "2026-11-14T04:34:01.152533+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-07",
+      "dias": 5,
+      "linhas": 19,
+      "sha256_resposta": "217c533717c19eb37178bcbaf4e5d1d0ffaaf54fa1a052fab5e56334b50dd181",
+      "cache_gravado_utc": "2026-11-14T04:34:01.546488+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-17",
+      "dias": 5,
+      "linhas": 64,
+      "sha256_resposta": "970e9fd7c4b259cfa5c0b583d80625e09de986e0c17c328179db68cdcdd7396e",
+      "cache_gravado_utc": "2026-11-14T04:34:02.478588+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-12",
+      "dias": 5,
+      "linhas": 112,
+      "sha256_resposta": "3057d8255324020b92f8c5c6052d3adfb130ba6e14ddb000675d668a9ee847f0",
+      "cache_gravado_utc": "2026-11-14T04:34:12.187399+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-22",
+      "dias": 5,
+      "linhas": 23,
+      "sha256_resposta": "28004942ce3acaf0f56168e02f9184b174538580a8d4057537ac6376b26b8a63",
+      "cache_gravado_utc": "2026-11-14T04:34:02.591223+00:00"
+    },
+    {
+      "fonte": "MODIS_SP",
+      "inicio": "2025-12-27",
+      "dias": 5,
+      "linhas": 89,
+      "sha256_resposta": "72674f418a29b7de096f931aa275a220bb50bca0a752f6b06cdc2d3b1eaeab14",
+      "cache_gravado_utc": "2026-11-14T04:34:03.388258+00:00"
+    }
+  ],
+  "limite": "Sem registros nao comprova observacao nem ausencia de foco; arquivos SP podem diferir do NRT disponivel na epoca."
+}

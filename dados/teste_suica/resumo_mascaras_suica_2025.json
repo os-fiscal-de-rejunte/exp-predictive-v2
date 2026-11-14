@@ -1,0 +1,10 @@
+{
+  "linhas": 18980,
+  "completas": 5697,
+  "positivas_completas": 23,
+  "incompletas": 13283,
+  "positivas_incompletas": 4,
+  "dias_sem_granulo": 0,
+  "sha256_arquivo": "56d762f0fb70ce73554ee5ebe69ed49d1832cd1cf2bd627fa75a1e0fd1a7345e",
+  "sha256_manifesto": "d7ac1764b792ac92eb27c38a69d7a3ae4f97f776cdd2aefbb017197dd292d9c4"
+}

@@ -1,0 +1,122 @@
+{
+  "fonte": "https://power.larc.nasa.gov/api/temporal/daily/point",
+  "inicio": "2024-12-22",
+  "fim": "2025-12-31",
+  "celulas": 17,
+  "linhas": 6375,
+  "ausentes": {
+    "T2M": 0,
+    "RH2M": 0,
+    "PRECTOTCORR": 0,
+    "WS10M": 0,
+    "GWETROOT": 0
+  },
+  "sha256_grade": "06992ebe257235a656f1aff3c5b38f6206cb6defb85fcddb2f44f3ba04e1d65f",
+  "sha256_arquivo": "0ac20d845d5e460f065c8ae7e1e6cabe0bc2d2678b34e0519c937e8544d3b314",
+  "processado_em_utc": "2026-11-14T11:14:49.991716+00:00",
+  "respostas": [
+    {
+      "latitude": 46.0,
+      "longitude": 6.875,
+      "sha256_resposta": "3f665d260b039a98c72eb30b0a27f484e8e0fadfa8e53219adb636701327325b",
+      "cache_gravado_utc": "2026-11-14T11:14:42.230677+00:00"
+    },
+    {
+      "latitude": 46.0,
+      "longitude": 7.5,
+      "sha256_resposta": "620e8e5055a7e644495d2c744d6a1b45730269af91d217e402f007e132bebc08",
+      "cache_gravado_utc": "2026-11-14T11:14:42.769840+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 6.875,
+      "sha256_resposta": "337b30341e2ee283ebb321386f3dfd068dbe3ba715df14b67e4d6883a7e2ef21",
+      "cache_gravado_utc": "2026-11-14T11:14:42.977495+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 7.5,
+      "sha256_resposta": "f0607b220bc15acf07ce2441cb175ee7ebd5f17ca14a918d97912f5caf8aa0f0",
+      "cache_gravado_utc": "2026-11-14T11:14:43.511033+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 8.125,
+      "sha256_resposta": "e355d73a4793b2066842e3bf9188ecba06a89dac06b4ddad1b89f890ced8d9a0",
+      "cache_gravado_utc": "2026-11-14T11:14:43.902885+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 8.75,
+      "sha256_resposta": "356a78889318988940407f0f8dbb1ba5805873ac260c782db61a60df16abd1e0",
+      "cache_gravado_utc": "2026-11-14T11:14:44.382317+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 9.375,
+      "sha256_resposta": "78f013b86078c11928e7be57360fcd88c05e54c134bf3a98fc7cb3f4f527042e",
+      "cache_gravado_utc": "2026-11-14T11:14:44.445729+00:00"
+    },
+    {
+      "latitude": 46.5,
+      "longitude": 10.0,
+      "sha256_resposta": "0aa291878dacb4136d8fb9ca2ee35764f8544a9683046df296a858511f7d8695",
+      "cache_gravado_utc": "2026-11-14T11:14:45.397625+00:00"
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 6.875,
+      "sha256_resposta": "1baaef775481902c197a9d84e52f327c768f0e869bae109179132115a26c952a",
+      "cache_gravado_utc": "2026-11-14T11:14:45.895251+00:00"
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 7.5,
+      "sha256_resposta": "09d5748dda3d48602a8a0cfe8941cf79738ed6c24825c0aa6d9f048422c6a02a",
+      "cache_gravado_utc": "2026-11-14T11:14:46.421643+00:00"
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 8.125,
+      "sha256_resposta": "312129822b9d768ccc28cc47a5765ca974f0d0a26a7537773b3f705927b5a237",
+      "cache_gravado_utc": "2026-11-14T11:14:46.573228+00:00"
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 8.75,
+      "sha256_resposta": "2d899d1e01f92e031cc76dd895c0443bfd8f6cb783bf4c66db27f39512d118c9",
+      "cache_gravado_utc": "2026-11-14T11:14:47.371181+00:00"
+    },
+    {
+      "latitude": 47.0,
+      "longitude": 9.375,
+      "sha256_resposta": "82f4ac03e77e2683f987e5dd032aa1481c01615f8a42a272bd429758e224ab39",
+      "cache_gravado_utc": "2026-11-14T11:14:47.392756+00:00"
+    },
+    {
+      "latitude": 47.5,
+      "longitude": 7.5,
+      "sha256_resposta": "db751f48bb2d6b2b9b424eef17881a37b4c5465c7b10771ccac3f5f211ae0af9",
+      "cache_gravado_utc": "2026-11-14T11:14:47.897517+00:00"
+    },
+    {
+      "latitude": 47.5,
+      "longitude": 8.125,
+      "sha256_resposta": "d772e15a5030ebafd20b55032763bba8fa79c5e450af2ace43bde678f6c55ac7",
+      "cache_gravado_utc": "2026-11-14T11:14:48.920502+00:00"
+    },
+    {
+      "latitude": 47.5,
+      "longitude": 8.75,
+      "sha256_resposta": "c909c970cb472b959e9a65d558614cca2ac839769ac5339232729f2faabd40c6",
+      "cache_gravado_utc": "2026-11-14T11:14:49.009153+00:00"
+    },
+    {
+      "latitude": 47.5,
+      "longitude": 9.375,
+      "sha256_resposta": "2abaeebf96c2318a1c2c206f5e83f36a1a739fd5d299df5dc208aefba78a8f8e",
+      "cache_gravado_utc": "2026-11-14T11:14:49.899157+00:00"
+    }
+  ],
+  "limite": "POWER historico pode ter sido revisado; nao prova disponibilidade na data simulada."
+}
